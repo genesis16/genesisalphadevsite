@@ -1,0 +1,39 @@
+/* # Footer
+================================================== */
+
+/* .site-footer container styles found in # Containers section */
+
+.site-info {
+	color: $site-info--font-color;
+	font-size: $site-info--font-size;
+	line-height: $line-height--normal;
+
+	@media screen and (min-width: $medium-screen-width) {
+		margin: 7px auto 7px 0;
+		-webkit-order: 1;
+		-ms-flex-order: 1;
+		order: 1;
+	}
+
+	a {
+		color: $site-info__a--font-color;
+
+		&:hover,
+		&:focus {
+			color: $site-info__a__hover--font-color;
+		}
+	}
+}
+
+.site-footer .site-title {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: $font-weight--regular;
+
+	&:after {
+		content: "\002f";
+		display: inline-block;
+		opacity: 0.7;
+		padding: 0 4px 0 7px;
+	}
+}

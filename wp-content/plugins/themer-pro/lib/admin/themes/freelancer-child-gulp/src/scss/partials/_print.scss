@@ -1,0 +1,166 @@
+/* # Print
+================================================== */
+
+@media print {
+	form,
+	button,
+	input,
+	select,
+	textarea,
+	.navigation,
+	.main-navigation,
+	.sidebar,
+	.page-links,
+	.edit-link,
+	.comment-respond,
+	.comment-edit-link,
+	.comment-reply-link,
+	.comment-metadata .edit-link,
+	.pingback .edit-link {
+		display: none;
+	}
+
+	body,
+	blockquote cite,
+	blockquote small,
+	pre,
+	.entry-content h4,
+	.entry-content h5,
+	.entry-content h6,
+	.comment-content h4,
+	.comment-content h5,
+	.comment-content h6,
+	.author-title {
+		font-size: 12pt;
+	}
+
+	blockquote {
+		font-size: 14pt;
+	}
+
+	.site-title,
+	.page-title,
+	.comments-title,
+	.entry-content h2,
+	.comment-content h2 {
+		font-size: 18pt;
+	}
+
+	.site-description {
+		display: block;
+	}
+
+	.entry-title {
+		font-size: 24pt;
+		line-height: 1.2;
+		margin-bottom: 10px;
+	}
+
+	.entry-content h1,
+	.comment-content h1 {
+		font-size: 22pt;
+	}
+
+	.entry-content h3,
+	.comment-content h3 {
+		font-size: 14pt;
+	}
+
+	.site-description,
+	.author-bio,
+	.entry-footer,
+	.taxonomy-description,
+	.entry-caption,
+	.comment-metadata,
+	.comment-notes,
+	.comment-awaiting-moderation,
+	.site-info,
+	.wp-caption .wp-caption-text,
+	.gallery-caption {
+		font-size: 10pt;
+	}
+
+	body {
+		background: none !important; /* Brute force since user agents all print differently. */
+	}
+
+	body,
+	blockquote cite,
+	blockquote small,
+	.site-branding .site-title a,
+	.entry-title a,
+	.comment-author {
+		color: #111 !important; /* Make sure color schemes don't affect to print */
+	}
+
+	blockquote,
+	.page-header,
+	.comments-title {
+		border-color: #111 !important; /* Make sure color schemes don't affect to print */
+	}
+
+	blockquote,
+	.site-description,
+	.author-bio,
+	.post-meta,
+	.post-meta a,
+	.taxonomy-description,
+	.entry-caption,
+	.comment-author,
+	.comment-metadata a,
+	.comment-notes,
+	.comment-awaiting-moderation,
+	.site-info,
+	.site-info a,
+	.wp-caption .wp-caption-text,
+	.gallery-caption {
+		color: #666 !important; /* Make sure color schemes don't affect to print */
+	}
+
+	code,
+	hr {
+		background-color: #ddd !important; /* Make sure color schemes don't affect to print */
+	}
+
+	pre,
+	abbr,
+	acronym,
+	table,
+	th,
+	td,
+	.author-info,
+	.comment-list article,
+	.comment-list .pingback,
+	.comment-list .trackback,
+	.no-comments {
+		border-color: #ddd !important; /* Make sure color schemes don't affect to print */
+	}
+
+	a {
+		color: #007acc !important; /* Make sure color schemes don't affect to print */
+	}
+
+	.site {
+		margin: 5%;
+	}
+
+	.wrap {
+		max-width: none;
+	}
+
+	.site-header {
+		padding: 0 0 28px;
+	}
+
+	.site-main {
+		margin-bottom: 54px;
+	}
+
+	.site-main > article {
+		margin-bottom: 40px;
+	}
+
+	.site-footer {
+		padding: 0;
+	}
+}

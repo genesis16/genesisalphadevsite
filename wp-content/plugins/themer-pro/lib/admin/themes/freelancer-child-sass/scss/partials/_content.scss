@@ -1,0 +1,208 @@
+/* # Content
+================================================== */
+
+/* .site-content container styles found in # Containers section */
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+	outline: none;
+}
+
+.content-area {
+
+	@media screen and (min-width: $medium-screen-width) {
+		float: left;
+		width: 70%;
+	}
+
+	.no-sidebar & {
+
+		@media screen and (min-width: $medium-screen-width) {
+			float: none;
+			margin: 0;
+			width: 100%;
+		}
+	}
+
+	.no-sidebar-narrow & {
+
+		@media screen and (min-width: $medium-screen-width) {
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+	}
+
+	.left-sidebar & {
+
+		@media screen and (min-width: $medium-screen-width) {
+			float: right;
+		}
+	}
+
+	.page-builder-template & {
+
+		@media screen and (min-width: $medium-screen-width) {
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+
+.site-main {
+	margin-bottom: 54px;
+
+	@media screen and (min-width: $small-screen-width) {
+    	margin-bottom: 80px;
+	}
+
+	@media screen and (min-width: $large-screen-width) {
+    	margin-bottom: 100px;
+	}
+
+	> article {
+		margin-bottom: 40px;
+		position: relative;
+
+		@media screen and (min-width: $small-screen-width) {
+			margin-bottom: 60px;
+		}
+
+		@media screen and (min-width: $large-screen-width) {
+			margin-bottom: 80px;
+		}
+	}
+}
+
+.site-main > :last-child,
+.page-builder-template .site-main,
+.page-builder-template .site-main > article {
+	margin-bottom: 0;
+}
+
+.entry-title {
+	font-size: $entry-title--font-size;
+	margin-bottom: 10px;
+
+	@media screen and (min-width: $small-screen-width) {
+		font-size: $mq-sm__entry-title--font-size;
+	}
+
+	@media screen and (min-width: $medium-screen-width) {
+		font-size: $mq-md__entry-title--font-size;
+	}
+
+	a {
+		color: $entry-title__a--font-color;
+	}
+
+	a:hover,
+	a:focus {
+		color: $entry-title__a__hover--font-color;
+	}
+}
+
+.post-thumbnail img {
+	display: block;
+
+	.no-sidebar &,
+	.no-sidebar-narrow & {
+		margin: 0 auto;
+	}
+}
+
+.entry-content {
+
+	.single & {
+		padding-bottom: 28px;
+	}
+
+	.single.page-builder-template & {
+		padding-bottom: 0;
+	}
+
+	li > ul,
+	blockquote > ul {
+
+		@media screen and (min-width: $small-screen-width) {
+			margin-left: 20px;
+		}
+	}
+
+	li > ol,
+	blockquote > ol {
+
+		@media screen and (min-width: $small-screen-width) {
+			margin-left: 22px;
+		}
+	}
+}
+
+.entry-content a,
+.comment-content a,
+.pingback .comment-body > a,
+.textwidget a {
+	text-decoration: underline;
+}
+
+.post-navigation .post-title,
+.entry-title,
+.comments-title {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.entry-content > :last-child,
+.page-content > :last-child,
+.comment-content > :last-child,
+.textwidget > :last-child {
+	margin-bottom: 0;
+}
+
+.more-link {
+	white-space: nowrap;
+}
+
+/**
+ * IE8 and earlier will drop any block with CSS3 selectors.
+ * Do not combine these styles with the next block.
+ */
+.updated:not(.published) {
+	display: none;
+}
+
+.taxonomy-description {
+	color: $taxonomy-description--font-color;
+	font-size: $taxonomy-description--font-size;
+	line-height: $line-height--normal;
+
+	a {
+		text-decoration: underline;
+	}
+
+	p {
+		margin: 8px 0 25px;
+	}
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+}
+
+.entry-attachment {
+	margin-bottom: 28px;
+}
+
+.entry-caption {
+	color: $entry-caption--font-color;
+	font-size: $entry-caption--font-size;
+	font-style: italic;
+	line-height: $line-height--normal;
+	padding-top: 17px;
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+}

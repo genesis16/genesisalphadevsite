@@ -1,0 +1,125 @@
+/* # Widgets
+================================================== */
+
+.widget {
+	border-top: 1px solid $light-gray;
+	margin-bottom: 54px;
+	padding-top: 28px;
+	font-size: $widget--font-size;
+	word-wrap: break-word;
+
+	.widget-title {
+		font-size: $widget__widget-title--font-size;
+		letter-spacing: .8px;
+		margin: 0 0 20px;
+		text-transform: uppercase;
+	}
+
+	ul,
+	ol {
+		margin: 0 0 26px 20px;
+		padding: 0;
+	}
+}
+
+.widget-area > :last-child,
+.widget > :last-child {
+	margin-bottom: 0;
+}
+
+.widget .widget-title:empty,
+.widget p:last-child,
+.widget ul > li:last-of-type,
+.widget-area .widget:last-of-type {
+	margin-bottom: 0;
+}
+
+.widget-title a {
+	color: $widget-title__a--font-color;
+}
+
+/* Calendar widget */
+.widget.widget_calendar table {
+	margin: 0;
+}
+
+.widget_calendar {
+
+	td,
+	th {
+		line-height: $line-height--extra-large;
+		padding: 0;
+		text-align: center;
+	}
+
+	caption {
+		font-weight: $font-weight--bold;
+		margin-bottom: 28px;
+	}
+
+	tbody a {
+		background-color: $widget_calendar__tbody__a--background-color;
+		color: $widget-calendar__tbody__a--font-color;
+		display: block;
+		font-weight: $font-weight--bold;
+	}
+
+	tbody a:hover,
+	tbody a:focus {
+		background-color: $widget_calendar__tbody__a__hover--background-color;
+		color: $widget-calendar__tbody__a__hover--font-color;
+	}
+}
+
+/* Recent Posts widget */
+.widget_recent_entries .post-date {
+	color: $widget-recent-entries__post-date--font-color;
+	display: block;
+	font-size: $widget-recent-entries__post-date--font-size;
+	line-height: $line-height--normal;
+	margin-bottom: 8px;
+}
+
+.widget_recent_entries li:last-child .post-date {
+	margin-bottom: 0;
+}
+
+/* RSS widget */
+.widget_rss .rsswidget img {
+	margin-top: -6px;
+}
+
+.widget_rss .rss-date,
+.widget_rss cite {
+	color: $widget-rss__rss-date--font-color;
+	display: block;
+	font-size: $widget-rss__rss-date--font-size;
+	font-style: normal;
+	line-height: $line-height--normal;
+	margin-bottom: 8px;
+}
+
+.widget_rss .rssSummary:last-child {
+	margin-bottom: 33px;
+}
+
+.widget_rss li:last-child :last-child {
+	margin-bottom: 0;
+}
+
+/* Tag Cloud widget */
+.tagcloud a {
+	border: $border-width $border-style $border-color;
+	border-radius: 2px;
+	display: inline-block;
+	line-height: $line-height--smaller;
+	margin: 0 4px 7px 0;
+	padding: 8px;
+
+	&:hover,
+	&:focus {
+		border-color: $blue;
+		color: $tagcloud__a__hover--font-color;
+		outline: none;
+	}
+}

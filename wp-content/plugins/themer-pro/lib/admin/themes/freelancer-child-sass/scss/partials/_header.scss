@@ -1,0 +1,76 @@
+/* # Header
+================================================== */
+
+/* .site-header container styles found in # Containers section */
+
+.site-header-main {
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	@media screen and (min-width: $medium-screen-width) {
+		-webkit-align-items: flex-start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+}
+
+.site-branding {
+	margin: 0 auto 0 0;
+	/* Avoid overflowing wide custom logo in small screens in Firefox and IEs */
+	max-width: 100%;
+	min-width: 0;
+	overflow: hidden;
+	text-align: center;
+
+	@media screen and (min-width: $medium-screen-width) {
+		text-align: left;
+		float: left;
+	}
+}
+
+.custom-logo-link {
+	display: block;
+}
+
+.custom-logo {
+	max-width: 200px;
+}
+
+.site-title {
+	font-size: $site-title--font-size;
+	font-weight: $font-weight--bold;
+	line-height: $line-height--small;
+	margin: 0;
+
+	@media screen and (min-width: $small-screen-width) {
+    	font-size: $mq-sm__site-title--font-size;
+	}
+
+	.site-branding & a {
+		color: $site-branding__site-title__a--font-color;
+	}
+
+	.site-branding & a:hover,
+	.site-branding & a:focus {
+		color: $site-branding__site-title__a__hover--font-color;
+	}
+}
+
+.site-description {
+	color: $site-description--font-color;
+	font-size: $site-description--font-size;
+	font-weight: $font-weight--regular;
+	line-height: $line-height--smaller;
+	margin: 7px 0 0;
+	
+	@media screen and (min-width: $small-screen-width) {
+    	font-size: $mq-sm__site-description--font-size;
+	}
+}

@@ -1,0 +1,35 @@
+/* Footer Widgets
+---------------------------------------------------------------------------- */
+
+.footer-widgets {
+	border-top: 1px solid $lighter-gray;
+	background-color: $footer-widgets--background-color;
+	clear: both;
+	padding: 60px 0;
+
+	.wrap {
+		margin-left: auto;
+		margin-right: auto;
+
+		@media only screen and (min-width: $standard-screen-width) {
+			max-width: 1140px;
+		}
+		
+        .footer-widget-area {
+        	margin-bottom: 40px;
+        	padding-left: 30px;
+        	padding-right: 30px;
+        
+        	@media only screen and (min-width: $standard-screen-width) {
+        		float: left;
+        		margin-bottom: 0;
+        		width: calc(100% / 3);
+        	}
+        	
+        	&:last-child,
+        	.widget:last-child {
+        	    margin-bottom: 0;
+        	}
+        }
+	}
+}

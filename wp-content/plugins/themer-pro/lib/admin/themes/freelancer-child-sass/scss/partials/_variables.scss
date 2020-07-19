@@ -1,0 +1,180 @@
+// Base Colors
+$black: #000;
+$dark-gray: #111;
+$med-gray: #666;
+$med-light-gray: #999;
+$light-gray: #ddd;
+$lighter-gray: #eee;
+$lightest-gray: #f5f5f5;
+$blue: #007acc;
+$white: #fff;
+
+// Base Fonts
+$base-font: Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+
+// Screen widths
+$large-screen-width: 1280px;
+$medium-screen-width: 1024px;
+$small-screen-width: 768px;
+
+// Container Padding
+$site-containers__left-right--padding: 7.5%;
+$mq-sm__site-containers__left-right--padding: 4.5%;
+$mq-md__site-containers__left-right--padding: 3.5%;
+$mq-lg__site-containers__left-right--padding: 2.5%;
+
+// Border styles
+$border-width: 1px;
+$border-style: solid;
+$border-color: $light-gray;
+$border-color-light: $lighter-gray;
+
+// Font sizes
+$body--font-size: 18px;
+$h1--font-size: 30px;
+$mq-md__h1--font-size: 36px;
+$h2--font-size: 26px;
+$mq-md__h2--font-size: 30px;
+$h3--font-size: 22px;
+$mq-md__h3--font-size: 24px;
+$h4--font-size: 20px;
+$h5--font-size: 18px;
+$h6--font-size: 16px;
+$post-password-form__label--font-size: 14px;
+$screen-reader-text__focus--font-size: 14px;
+$site__skip-link--font-size: 14px;
+$fontawesome__icon--font-size: 16px;
+$widget--font-size: 16px;
+$widget__widget-title--font-size: 16px;
+$widget-recent-entries__post-date--font-size: 14px;
+$widget-rss__rss-date--font-size: 14px;
+$site-title--font-size: 24px;
+$mq-sm__site-title--font-size: 28px;
+$site-description--font-size: 14px;
+$mq-sm__site-description--font-size: 16px;
+$main-navigation__a--font-size: 16px;
+$main-navigation__sub-menu__a--font-size: 14px;
+$dropdown-toggle__a__after--font-size: 24px;
+$menu-tottle--font-size: 14px;
+$menu-tottle__before--font-size: 18px;
+$page-title--font-size: 22px;
+$entry-title--font-size: 28px;
+$mq-sm__entry-title--font-size: 32px;
+$mq-md__entry-title--font-size: 36px;
+$taxonomy-description--font-size: 16px;
+$entry-caption--font-size: 14px;
+$post-meta--font-size: 16px;
+$author-title--font-size: 16px;
+$author-bio--font-size: 16px;
+$post-navigation__meta-nav--font-size: 14px;
+$post-navigation__post-title--font-size: 20px;
+$mq-sm__post-navigation__post-title--font-size: 24px;
+$pagination--font-size: 18px;
+$comment-navigation--font-size: 14px;
+$page-links__a--font-size: 14px;
+$pagination__page-numbers--font-size: 18px;
+$comments-title--font-size: 23px;
+$comment-metadata--font-size: 14px;
+$comment-reply-link--font-size: 14px;
+$comment-form__label--font-size: 16px;
+$comment-notes--font-size: 16px;
+$site-info--font-size: 14px;
+$wp-caption__wp-caption-text--font-size: 14px;
+$gallery-caption--font-size: 14px;
+
+// Font families
+$body--font-family: $base-font;
+$headings--font-family: $base-font;
+
+// Font weights
+$font-weight--regular: 400;
+$font-weight--bold: 700;
+
+// Line heights
+$line-height--extra-large: 2.5625;
+$line-height--large: 1.75;
+$line-height--normal: 1.625;
+$line-height--medium: 1.312;
+$line-height--small: 1.2;
+$line-height--smaller: 1;
+
+// Font colors
+$body--font-color: $dark-gray;
+$link--font-color: $blue;
+$link__hover--font-color: $med-gray;
+$forms--font-color: $med-gray;
+$forms__focus--font-color: $dark-gray;
+$button--font-color: $white;
+$button__hover--font-color: $blue;
+$post-password-form__label--font-color: $med-gray;
+$placeholder--font-color: $med-gray;
+$screen-reader-text__focus--font-color: $dark-gray;
+$site__skip-link--font-color: $blue;
+$focus--font-color: $dark-gray;
+$widget-title__a--font-color: $dark-gray;
+$widget-calendar__tbody__a--font-color: $blue;
+$widget-calendar__tbody__a__hover--font-color: $white;
+$widget-recent-entries__post-date--font-color: $med-gray;
+$widget-rss__rss-date--font-color: $med-gray;
+$tagcloud__a__hover--font-color: $blue;
+$site-branding__site-title__a--font-color: $dark-gray;
+$site-branding__site-title__a__hover--font-color: $blue;
+$site-description--font-color: $med-gray;
+$main-navigation__a--font-color: $dark-gray;
+$main-navigation__a__hover--font-color: $blue;
+$mq-med__main-navigation__li__hover__a: $blue;
+$main-navigation__primary-menu--font-color: $white;
+$dropdown-toggle--font-color: $dark-gray;
+$dropdown-toggle__hover--font-color: $blue;
+$menu-toggle--font-color: $dark-gray;
+$menu-toggle__toggled-on--font-color: $white;
+$entry-title__a--font-color: $dark-gray;
+$entry-title__a__hover--font-color: $blue;
+$taxonomy-description--font-color: $med-gray;
+$entry-caption--font-color: $med-gray;
+$post-meta--font-color: $med-gray;
+$post-meta__a--font-color: $med-gray;
+$post-meta__a__hover--font-color: $blue;
+$author-bio--font-color: $med-gray;
+$post-navigation__a--font-color: $dark-gray;
+$post-navigation__meta-nav--font-color: $med-gray;
+$post-navigation__a__hover__post-title--font-color: $blue;
+$pagination__a__hover--font-color: $dark-gray;
+$pagination__prev-next__hover--font-color: $dark-gray;
+$comment-navigation--font-color: $med-gray;
+$page-links__a--font-color: $blue;
+$page-links__a__hover--font-color: $dark-gray;
+$pagination__page-numbers__current--font-color: $dark-gray;
+$page-links__span__page-links-title--font-color: $dark-gray;
+$page-links__page-links-title--font-color: $dark-gray;
+$comment-author--font-color: $dark-gray;
+$comment-metadata--font-color: $med-gray;
+$comment-metadata__a--font-color: $med-gray;
+$comment-metadata__a__hover--font-color: $blue;
+$comment-reply-link--font-color: $blue;
+$comment-reply-link__hover--font-color: $blue;
+$comment-form__label--font-color: $med-gray;
+$comment-notes--font-color: $med-gray;
+$required--font-color: $blue;
+$site-info--font-color: $med-gray;
+$site-info__a--font-color: $med-gray;
+$site-info__a__hover--font-color: $blue;
+$wp-caption__wp-caption-text--font-color: $med-gray;
+$gallery-caption--font-color: $med-gray;
+
+// Background colors
+$body--background-color: $white;
+$header--background-color: $white;
+$hr--background-color: $light-gray;
+$forms--background-color: $lightest-gray;
+$forms__focus--background-color: $white;
+$button--background-color: $dark-gray;
+$button__hover--background-color: $blue;
+$screen-reader-text__focus--background-color: $white;
+$site__skip-link--background-color: $lighter-gray;
+$widget_calendar__tbody__a--background-color: $blue;
+$widget_calendar__tbody__a__hover--background-color: $med-gray;
+$main-navigation__primary-menu--background-color: $white;
+$mq-md__main-navigation__ul__ul__li--background-color: $white;
+$menu-toggle__toggled-on--background-color: $dark-gray;
+$footer--background-color: $white;

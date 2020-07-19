@@ -1,0 +1,23 @@
+/* # Sidebar
+================================================== */
+
+.sidebar {
+	margin-bottom: 54px;
+
+	@media screen and (min-width: $medium-screen-width) {
+		float: right;
+		padding: 0;
+		width: 25%;
+	}
+
+	@media screen and (min-width: $large-screen-width) {
+		margin-bottom: 80px;
+	}
+
+	.left-sidebar & {
+		
+		@media screen and (min-width: $medium-screen-width) {
+			float: left;
+		}
+	}
+}

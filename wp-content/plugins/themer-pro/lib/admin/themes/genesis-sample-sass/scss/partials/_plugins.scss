@@ -1,0 +1,116 @@
+/* Plugins
+---------------------------------------------------------------------------- */
+
+/* Genesis eNews Extended
+--------------------------------------------- */
+
+.enews {
+
+	.after-entry & {
+		text-align: center;
+		padding: 10px;
+	}
+
+	.sidebar & {
+		background-color: $enews__sidebar--background-color;
+		padding: 30px;
+	}
+}
+
+.enews-widget {
+
+	input {
+		font-size: $enews-widget__input--font-size;
+		margin-bottom: 10px;
+	}
+
+	.after-entry & input {
+		text-align: center;
+	}
+
+	input[type="submit"] {
+		margin: 0;
+		width: 100%;
+	}
+}
+
+.enews form + p {
+	margin-top: 20px;
+}
+
+/* Genesis Simple FAQ
+--------------------------------------------- */
+
+.gs-faq__question {
+	background: transparent;
+	border-bottom: 1px solid $lighter-gray;
+	color: $gs-faq__question--font-color;
+	padding-left: 0;
+	padding-right: 0;
+
+	&:focus,
+	&:hover {
+		background: transparent;
+		color: $gs-faq__question--font-color-hover;
+	}
+
+	&::after {
+		content: "\f132";
+		font-family: dashicons; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+		float: right;
+	}
+
+	&.gs-faq--expanded::after {
+		content: "\f460";
+	}
+}
+
+/* WP Forms
+--------------------------------------------- */
+
+.entry-content .wpforms-container {
+	margin-bottom: 40px;
+}
+
+.entry-content .wpforms-form .wpforms-field {
+	clear: both;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+.site-container .wpforms-container .wpforms-form .wpforms-field input {
+	border-radius: 0;
+	height: auto;
+	padding: 15px;
+}
+
+.site-container .entry-content .wpforms-form .wpforms-field-label {
+	font-weight: $font-weight--semibold;
+}
+
+.site-container .entry-content .wpforms-form .wpforms-field-sublabel {
+	font-size: $wpforms-widget__field-sublabel--font-size;
+	font-weight: $font-weight--light;
+}
+
+.entry-content .wpforms-form .wpforms-field-hp {
+	display: none !important;
+	left: -9000px !important;
+	position: absolute !important;
+}
+
+.site-container .entry-content .wpforms-form textarea {
+	padding: 15px;
+}
+
+.site-container .entry-content .wpforms-form textarea.wpforms-field-small {
+	height: 120px;
+}
+
+.site-container .entry-content .wpforms-form textarea.wpforms-field-medium {
+	height: 200px;
+}
+
+.site-container .entry-content .wpforms-form textarea.wpforms-field-large {
+	height: 300px;
+}

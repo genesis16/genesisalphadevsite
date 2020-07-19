@@ -1,0 +1,1168 @@
+body {
+	font-size: 13px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+}
+
+p, ul, ol, blockquote, input, select {
+	font-size: 13px;
+}
+
+a, a:link, a:visited {
+	color: #0074A2;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+a:hover, a:active  {
+	color: #2EA2CC;
+	text-decoration: none;
+}
+
+.themer-pro-ace-active-theme-dark #themer-pro-file-tree-editor-container a,
+.themer-pro-ace-active-theme-dark #themer-pro-file-tree-editor-container a:link,
+.themer-pro-ace-active-theme-dark #themer-pro-file-tree-editor-container a:visited {
+	color: #eee;
+}
+
+.themer-pro-ace-active-theme-dark #themer-pro-file-tree-editor-container a:hover,
+.themer-pro-ace-active-theme-dark #themer-pro-file-tree-editor-container a:active {
+	color: #fff;
+}
+
+#themer-pro-admin-wrap {
+	max-width: 1980px;
+	margin: 10px 0 0;
+	padding: 0;
+	clear: both;
+}
+
+#themer-pro-admin-wrap,
+.themer-pro-settings-wrap,
+.themer-pro-settings-wrap h3,
+.themer-pro-optionbox-outer-1col,
+.themer-pro-optionbox-inner-1col,
+.themer-pro-optionbox-outer-2col,
+.themer-pro-optionbox-inner-2col,
+.themer-pro-child-theme-export-wrap,
+.themer-pro-tabby-textarea,
+.notice-box {
+	width: 100%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.themer-pro-settings-wrap h3 {
+	border:0;
+	border-bottom: 1px solid #ddd;
+	margin: 0;
+	padding: 8px 0;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	clear: both;
+}
+
+.themer-pro_page_themer-pro-parent-editor .themer-pro-settings-wrap h3,
+.themer-pro_page_themer-pro-child-editor .themer-pro-settings-wrap h3 {
+	height: 36px;
+	padding: 0;
+}
+
+.themer-pro-settings-wrap h3,
+.themer-pro-optionbox-outer-2col {
+	background: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	border-right: 0;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.themer-pro-optionbox-inner-2col h4 {
+	background: #FFFFFF;
+	border-bottom: 1px solid #F0F0F0;
+	color: #222222;
+	font-size: 14px;
+	margin: 0 0 10px;
+	padding: 8px 0;
+	text-align: center;
+}
+
+.themer-pro-optionbox-inner-1col {
+	background: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	margin: 0 0 15px;
+	padding: 0;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+#themer-pro-admin-wrap .themer-pro-optionbox-inner-1col {
+	background: none;
+	border: none;
+}
+
+.themer-pro-optionbox-outer-2col {
+	background: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	margin: 0 0 15px;
+	padding: 0;
+	float: left;
+}
+
+.themer-pro-optionbox-inner-2col {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.themer-pro-optionbox-2col-left-wrap {
+	width: 49%;
+	float: left;
+}
+
+.themer-pro-optionbox-2col-right-wrap {
+	width: 49%;
+	float: right;
+}
+
+#themer-pro-settings-nav-info-box .themer-pro-optionbox-2col-left-wrap {
+	width: 39%;
+}
+
+#themer-pro-settings-nav-info-box .themer-pro-optionbox-2col-right-wrap {
+	width: 59%;
+}
+
+.themer-pro-child-theme-export-2col-left,
+.themer-pro-child-theme-export-2col-right {
+	width: 47%;
+	margin: 10px;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.themer-pro-child-theme-export-2col-right {
+	float: right;
+}
+
+#themer-pro-ace-editor-theme-preview {
+	max-width: 583px;
+	margin-top: -20px;
+	padding: 0 15px;
+}
+
+#themer-pro-ace-editor-theme-preview span {
+	background: #eee;
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	margin-right: -2px;
+	padding: 3px 7px;
+	color: #666;
+	font-style: italic;
+	float: right;
+	-webkit-border-radius: 10px 2px 0 0;
+	border-radius: 10px 2px 0 0;
+}
+
+#themer-pro-ace-editor-theme-preview img {
+	border: 1px solid #ddd;
+	width: 100%;
+	height: auto;
+}
+
+#themer-pro-screenshot-image-upload-container {
+	background: #f5f5f5;
+	border: 1px solid #eee;
+	width: 180px;
+	padding: 5px;
+	text-align: center;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#themer-pro-screenshot-image-upload-container span {
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.themer-pro-file-editor-textarea-container {
+	height: 100%;
+	position: relative;
+	display: none;
+}
+
+.themer-pro-file-editor-textarea-container h3 {
+	position: relative;
+}
+
+.themer-pro-file-editor-go-back-button {
+	background: #444;
+	padding: 3px 6px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.themer-pro-file-tree-editor-expanded .themer-pro-file-editor-expand,
+.themer-pro-file-editor-contract {
+	display: none;
+}
+
+.themer-pro-file-tree-editor-expanded .themer-pro-file-editor-contract,
+.themer-pro-file-editor-expand {
+	display: block;
+}
+
+.ace_editor {
+	line-height: 130%;
+}
+
+.themer-pro-file-tree-editor-expanded .ace_editor {
+	width: 100%;
+	height: -webkit-calc(100% - 35px);
+	height: calc(100% - 35px);
+	position: absolute;
+	top: 36px;
+	left: 0;
+}
+
+.themer-pro-file-editor-copy,
+.themer-pro-file-editor-expand,
+.themer-pro-file-editor-contract {
+	background: #eee;
+	border: 0;
+	width: 66px;
+	padding: 4px;
+	color: #333;
+	font-size: 11px;
+	font-style: italic;
+	position: absolute;
+	top: 8px;
+	right: 35px;
+	cursor: pointer;
+	z-index: 1;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.themer-pro-ace-active-theme-dark .themer-pro-file-editor-copy,
+.themer-pro-ace-active-theme-dark .themer-pro-file-editor-expand,
+.themer-pro-ace-active-theme-dark .themer-pro-file-editor-contract {
+	background: #444;
+	color: #eee;
+}
+
+.themer-pro-file-editor-expand,
+.themer-pro-file-editor-contract {
+	width: auto;
+	height: auto;
+	padding: 2px;
+	top: 6px;
+	right: 5px;
+	font-size: 20px;
+	font-style: normal;
+}
+
+#themer-pro-functions-copy:hover {
+	background: #ddd;
+}
+
+.themer-pro-ace-active-theme-dark #themer-pro-functions-copy:hover {
+	background: #555;
+}
+
+#themer-pro-functions-copied {
+	cursor: initial;
+}
+
+.themer-pro-file-editor-heading {
+	background: #eee;
+	border: 1px solid #ddd;
+	margin: 4px 107px 0 0;
+	padding: 5px 13px 6px 17px;
+	color: #333;
+	font-weight: normal;
+	float: right;
+	-webkit-border-radius: 10px 2px 0 0;
+	border-radius: 10px 2px 0 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+.themer-pro-ace-active-theme-dark .themer-pro-file-editor-heading {
+	background: #444;
+	border-color: #222;
+	color: #eee;
+}
+
+#themer-pro-file-tree-editor-container {
+	width: 100%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#themer-pro-file-tree-editor-container.themer-pro-file-tree-editor-expanded {
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999999;
+}
+
+#themer-pro-file-tree-container {
+	background: #fff;
+	border: 1px solid #ddd;
+	width: 20%;
+	height: 584px;
+	overflow: auto;
+	float: left;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#themer-pro-file-editor-container {
+	border: 1px solid #ddd;
+	border-top: 0;
+	border-left: 0;
+	width: 80%;
+	float: right;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.themer-pro-file-tree-editor-expanded #themer-pro-file-tree-container,
+.themer-pro-file-tree-editor-expanded #themer-pro-file-editor-container {
+	height: 100%;
+}
+
+#themer-pro-file-editor-file-control-settings-icon {
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+	height: 35px;
+	color: #aaa;
+	text-align: right;
+	float: left;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.themer-pro-ace-active-theme-dark #themer-pro-file-editor-file-control-settings-icon,
+.themer-pro-ace-active-theme-dark #themer-pro-file-editor-file-control-form,
+.themer-pro-ace-active-theme-dark #themer-pro-file-tree-container,
+.themer-pro-ace-active-theme-dark #themer-pro-file-editor-container,
+.themer-pro-ace-active-theme-dark #themer-pro-file-editor-reload-page,
+.themer-pro-ace-active-theme-dark .themer-pro-file-tree li.ctft-file-active,
+.themer-pro-ace-active-theme-dark .themer-pro-settings-wrap h3 {
+	background-color: #333;
+	border-color: #222;
+}
+
+.themer-pro-ace-active-theme-dark .themer-pro-settings-button.button {
+	background: #444 !important;
+}
+
+.themer-pro-ace-active-theme-dark #themer-pro-file-tree-container::-webkit-scrollbar,
+.themer-pro-ace-active-theme-dark .ace_scrollbar-v::-webkit-scrollbar,
+.themer-pro-ace-active-theme-dark .ace_scrollbar-h::-webkit-scrollbar {
+	background-color: #333;
+}
+
+.themer-pro-ace-active-theme-dark #themer-pro-file-tree-container::-webkit-scrollbar,
+.themer-pro-ace-active-theme-dark .ace_scrollbar-v::-webkit-scrollbar {
+	width: 10px;
+}
+
+.themer-pro-ace-active-theme-dark .ace_scrollbar-h::-webkit-scrollbar {
+	height: 10px;
+}
+
+.themer-pro-ace-active-theme-dark #themer-pro-file-tree-container::-webkit-scrollbar-thumb,
+.themer-pro-ace-active-theme-dark .ace_scrollbar-v::-webkit-scrollbar-thumb,
+.themer-pro-ace-active-theme-dark .ace_scrollbar-h::-webkit-scrollbar-thumb {
+	background-color: #474747;
+	border: 1px solid #555;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+#themer-pro-file-editor-file-control-settings-icon .dashicons:before {
+	padding: 7px 3px 0 0;
+	float: right;
+	cursor: pointer;
+}
+
+#themer-pro-file-tree-editor-container .dashicons:hover {
+	color: #2EA2CC;
+}
+
+#themer-pro-file-editor-reload-page {
+	background: #f5f5f5;
+	border-right: 1px solid #eee;
+	padding: 7px 5px 9px;
+	font-size: 12px;
+	font-family: Tahoma, sans-serif;
+	font-style: italic;
+	float: left;
+}
+
+#themer-pro-file-editor-file-control-settings-icon a {
+	color: #aaa;
+	text-decoration: underline;
+}
+
+#themer-pro-file-editor-file-control-form {
+	background: #f5f5f5;
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+	height: 215px;
+	padding: 10px;
+	float: left;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: none;
+}
+
+.themer-pro-file-editor-control-container {
+	margin: 5px 0 9px;
+}
+
+.themer-pro-file-editor-control-text {
+	color: #888;
+	font-style: italic;
+}
+
+#themer-pro-file-editor-control-action,
+.themer-pro-file-editor-control-input {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.wp-admin.themer-pro_page_themer-pro-image-manager input[type=file] {
+	padding: 4px 0;
+}
+
+#themer-pro-file-control-save-container {
+	position: relative;
+}
+
+.themer-pro-file-tree {
+	width: 100%;
+	margin: 0;
+	padding: 10px 0 0 25px;
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	float: left;
+	-webkit-font-smoothing: auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.themer-pro-file-tree-short {
+	height: 332px;
+}
+
+.themer-pro-file-tree-editor-expanded .themer-pro-file-tree {
+	height: calc(100% - 35px);
+}
+
+.themer-pro-file-tree-editor-expanded .themer-pro-file-tree-short {
+	height: calc(100% - 250px);
+}
+
+.themer-pro-file-tree a:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.themer-pro-file-tree li {
+	margin: 0 10px;
+	padding: 3px 0;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.themer-pro-file-tree li:not(.ctft-directory) {
+	margin-left: 5px;
+}
+
+.themer-pro-file-tree #ctft-root-directory {
+	margin-left: -5px;
+}
+
+.themer-pro-file-tree #ctft-root-directory a,
+.themer-pro-file-tree #ctft-root-directory a:hover {
+	color: #333;
+	cursor: default;
+}
+
+.themer-pro-ace-active-theme-dark .themer-pro-file-tree #ctft-root-directory a,
+.themer-pro-ace-active-theme-dark  #ctft-root-directory a:hover {
+	color: #eee;	
+}
+
+.themer-pro-file-tree li.ctft-directory a {
+	padding-left: 2px;
+}
+
+.themer-pro-file-tree li .ctft-directory-icon {
+	margin: 0 3px 0 -7px;
+	color: #333;
+}
+
+.themer-pro-file-tree li .fa.fa-caret-down.ctft-directory-icon {
+	margin: 0 5px 0 -9px;
+}
+
+.themer-pro-ace-active-theme-dark .themer-pro-file-tree li .ctft-directory-icon {
+	width: 5px;
+	color: #eee;
+}
+
+.themer-pro-file-tree li.ctft-directory ul {
+	padding-top: 5px;
+}
+
+.themer-pro-file-tree li.ctft-file a {
+	background: url(images/icons/default.svg) no-repeat;
+	padding: 3px 0 3px 20px;
+	color: #333;
+	text-decoration: none;
+	cursor: default;
+}
+
+.themer-pro-file-tree li.ctft-file a:hover {
+	color: #333;
+}
+
+.themer-pro-file-tree li.ctft-file-edit a {
+	color: #0074A2;
+	cursor: pointer;
+}
+
+.themer-pro-file-tree li.ctft-file-edit a:hover {
+	color: #2EA2CC;
+}
+
+.themer-pro-file-tree li.ctft-file-active {
+	background: #eee;
+}
+
+.themer-pro-ace-active-theme-dark .themer-pro-file-tree li.ctft-file-active {
+	background: #262626;
+}
+
+.themer-pro-file-tree li.ctft-file-active a,
+.themer-pro-file-tree li.ctft-file-active a:hover {
+	color: #333;
+}
+
+.themer-pro-ace-active-theme-dark .themer-pro-file-tree li.ctft-file-active a,
+.themer-pro-ace-active-theme-dark .themer-pro-file-tree li.ctft-file-active a:hover {
+	color: #eee;
+}
+
+.themer-pro-file-tree li.ext-png a,
+.themer-pro-file-tree li.ext-jpg a,
+.themer-pro-file-tree li.ext-jpeg a,
+.themer-pro-file-tree li.ext-gif a,
+.themer-pro-file-tree li.ext-ico a,
+.themer-pro-file-tree li.ext-tif a,
+.themer-pro-file-tree li.ext-tiff a,
+.themer-pro-file-tree li.ext-psd a,
+.themer-pro-file-tree li.ext-bmp a {
+	background: url(images/icons/image.svg) no-repeat;
+}
+
+.themer-pro-file-tree li.ext-css a,
+.themer-pro-file-tree li.ext-less a,
+.themer-pro-file-tree li.ext-sass a,
+.themer-pro-file-tree li.ext-scss a {
+	background: url(images/icons/css.svg) no-repeat;
+}
+
+.themer-pro-file-tree li.ext-htm a,
+.themer-pro-file-tree li.ext-html a {
+	background: url(images/icons/htm.svg) no-repeat;
+}
+
+.themer-pro-file-tree li.ext-js a,
+.themer-pro-file-tree li.ext-json a {
+	background: url(images/icons/js.svg) no-repeat;
+}
+
+.themer-pro-file-tree li.ext-md a {
+	background: url(images/icons/md.svg) no-repeat;
+}
+
+.themer-pro-file-tree li.ext-php a {
+	background: url(images/icons/php.svg) no-repeat;
+}
+
+.themer-pro-file-tree li.ext-xml a {
+	background: url(images/icons/xml.svg) no-repeat;
+}
+
+.themer-pro-file-tree li.ext-zip a {
+	background: url(images/icons/zip.svg) no-repeat;
+}
+
+.themer-pro-tabby-textarea .ace_search {
+	background: #eee;
+}
+
+.themer-pro-tabby-textarea .ace_search_form input,
+.themer-pro-tabby-textarea .ace_replace_form input {
+	border: 0;
+}
+
+.ace_tooltip {
+	color: #333;
+	font-size: 13px;
+}
+
+.ace_tooltip hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fafafa;
+	margin: 0;
+}
+
+button.themer-pro-code-builder-output-cut {
+	background: #eee;
+	border: 1px solid #ddd;
+	border-top: 0;
+	padding: 5px;
+	margin: -44px 22px 0 0;
+	width: 458px;
+	color: #444;
+	font-size: 14px;
+	float: right;
+	-webkit-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+
+button#php-builder-output-cut-button,
+button#php-builder-output-copied-button {
+	margin: 0 14px 15px 0;
+	width: 775px;
+}
+
+.themer-pro-tabby-textarea .ace_search_form button,
+.themer-pro-tabby-textarea .ace_replace_form button {
+	background-color: #fff;
+	padding: 0;
+	color: #333;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.themer-pro-tabby-textarea .ace_replace_form button {
+	padding: 0 5px;
+}
+
+.themer-pro-tabby-textarea .ace_search_form button:hover,
+.themer-pro-tabby-textarea .ace_replace_form button:hover {
+	background-color: #eee;
+}
+
+#themer-pro-admin-wrap .resource-box {
+	background: #f5f5f5;
+	border: 1px solid #eee;
+	margin: 0 10px 10px;
+	padding: 1px 10px;
+}
+
+#themer-pro-admin-wrap .resource-box h5 {
+	color: #014662;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+#themer-pro-admin-wrap .resource-box p {
+	color: #555;
+	font-family: Georgia, serif;
+	font-size:14px;
+	text-align: justify;
+}
+
+.bg-box {
+	background: #fff;
+	border: none;
+	margin: 0 10px 10px;
+	padding: 0 5px;
+}
+
+.bg-box-licenses {
+    background: #f5f5f5;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: 0 -15px 15px;
+    padding: 0 15px 0;
+    overflow: hidden;
+}
+
+#themer-pro-child-not-active-message {
+	border: 1px solid #ffb900;
+	border-left: 5px solid #ffb900;
+	padding: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	display: block;
+}
+
+#readme-box {
+	background: #FFFFFF;
+	border: none;
+	margin: 0 10px 10px;
+	padding: 0 10px;
+}
+
+#readme-box h5 {
+	color: #014662;
+	font-family: Georgia,serif;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+#readme-box p {
+	color: #333333;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.notice-box {
+	background: #FFFBCC;
+	border: 1px solid #E6DB55;
+	color: #555555;
+	text-align: center;
+	margin: 0 0 15px;
+	padding: 5px 8px;
+}
+
+.button {
+	font-size: 13px !important;
+	margin: 0 5px 0 0!important;
+	color: #666 !important;
+	text-align: center !important;
+	float: right !important;
+}
+
+.wp-core-ui .button {
+	height: 25px;
+	margin: 0;
+	padding: 0 10px 1px;
+	font-size: 13px;
+	vertical-align: middle;
+}
+
+.themer-pro-settings-button.button {
+	background: #333333 !important;
+	border: none !important;
+	color: #FFFFFF !important;
+	margin: 0 !important;
+	text-shadow: none !important;
+	float: left !important;
+	-webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
+	-webkit-box-shadow: 0 0 0 #FFFFFF !important;
+	box-shadow: 0 0 0 #FFFFFF !important;
+}
+
+.themer-pro-settings-button.button:hover {
+	background: #2EA2CC !important;
+}
+
+.themer-pro-settings-button.button.rounded-button {
+	-webkit-border-radius: 3px !important;
+	border-radius: 3px !important;
+}
+
+.default-text-active {
+	color: #AAAAAA !important;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.themer-pro-settings-save-container {
+	padding: 10px 15px 15px;
+	float: left;
+	position: relative;
+}
+
+.themer-pro-file-editor-textarea-form input[type=submit],
+.themer-pro-file-editor-textarea-form .themer-pro-parent-editor-read-only-button {
+	background: #444;
+	border: 0;
+	width: 100px;
+	color: #fff;
+    margin: 0 0 0 -1px;
+    padding: 6px 5px 7px;
+	font-size: 13px;
+	font-weight: normal;
+	text-transform: none;
+	line-height: 1.625;
+	float: left;
+	cursor: pointer;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+.themer-pro-file-editor-textarea-form .themer-pro-parent-editor-read-only-button {
+	width: 70px;
+	font-style: italic;
+	cursor: default;
+}
+
+.themer-pro-file-editor-textarea-form input[type=submit]:hover,
+.themer-pro-file-editor-textarea-form input[type=submit].themer-pro-file-editor-save-button-active:hover {
+	background: #2EA2CC;
+}
+
+.themer-pro-file-editor-textarea-form input[type=submit].themer-pro-file-editor-save-button-active {
+	background: #b0313d;
+}
+
+#themer-pro-image-file-upload-form {
+	background: #f5f5f5;
+	border: 1px solid #eee;
+	max-width: 345px;
+	margin: 0 auto;
+	padding: 10px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.wp-core-ui #themer-pro-image-file-upload-form .button {
+	margin-top: -1px !important;
+}
+
+.themer-pro-image-file-upload-status {
+	background: #fff;
+	margin-top: 10px;
+	padding: 10px 15px;
+	font-style: italic;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.themer-pro-image-file-upload-status .dashicons {
+	width: 37px;
+	height: 37px;
+	padding-right: 8px;
+	font-size: 37px;
+	vertical-align: middle;
+}
+
+.themer-pro-child-theme-images-list {
+	width: 100%;
+	margin: 5px 0;
+	float: left;
+}
+
+.themer-pro-child-theme-images-list-item {
+	border: 1px solid #ddd;
+	width: 100%;
+	max-width: 280px;
+	margin: 10px;
+	float: left;
+}
+
+.themer-pro-listed-image-header,
+.themer-pro-listed-image-footer {
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.themer-pro-listed-image-footer {
+	border: 0;
+	border-top: 1px solid #ddd;
+	padding: 3px;
+}
+
+.themer-pro-listed-image-name {
+	border: 0 !important;
+	width: 100%;
+	max-width: 212px;
+	padding: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	border-radius: 0 !important;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.themer-pro-image-rename-button,
+.themer-pro-image-delete-button,
+.themer-pro-image-info-button {
+	border-left: 1px solid #ddd;
+	padding: 6px 10px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	float: right;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.themer-pro-image-info-button,
+.themer-pro-image-delete-button {
+	border: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+.themer-pro-image-info-button {
+	float: left;
+}
+
+.themer-pro-image-rename-button:hover,
+.themer-pro-image-info-button:hover,
+.themer-pro-image-delete-button:hover {
+	background: #ddd;
+	cursor: pointer;
+}
+
+.themer-pro-image-delete-all-button-container {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+.themer-pro-listed-image-inner,
+.themer-pro-listed-image-info-inner {
+	width: 100%;
+	padding: 10px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.themer-pro-listed-image-info-inner {
+	display: none;
+}
+
+.themer-pro-save-button.button {
+	height: 30px !important;
+	color: #fff !important;
+	float: left !important;
+}
+
+.themer-pro-saved {
+	-webkit-font-smoothing: antialiased;
+}
+
+.themer-pro-listed-image-inner .themer-pro-ajax-save-spinner,
+.themer-pro-listed-image-inner .themer-pro-saved {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.themer-pro-listed-image-inner .themer-pro-saved {
+	background: #eee;
+	width: 100%;
+	height: 100%;
+	color: #333;
+	text-align: center;
+}
+
+img.themer-pro-listed-image {
+	width: 100px;
+	margin: 0 auto;
+	float: none;
+	display: block;
+}
+
+.themer-pro-image-info-item-heading,
+.themer-pro-image-info-item {
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 5px;
+	display: block;
+}
+
+.themer-pro-image-info-item-heading {
+	text-align: center;
+	font-weight: bold;
+}
+
+.themer-pro-image-info-item .dashicons {
+	padding-right: 3px;
+}
+
+.themer-pro-image-delete-all-button-container .themer-pro-ajax-save-spinner,
+.themer-pro-image-delete-all-button-container .themer-pro-saved {
+	top: 0;
+	left: 140px;
+}
+
+.themer-pro-image-delete-all-button-container .themer-pro-saved {
+	width: 145px;
+	margin: 4px 0 0;
+	padding: 3px 5px;
+	text-align: center;
+}
+
+.themer-pro-image-delete-all-button {
+	margin: 0 0 5px !important;
+	float: left !important;
+}
+
+#themer-pro-image-manager-missing-folder-message {
+	background: #fff;
+	padding: 0 20px;
+	float: left;
+}
+
+#themer-pro-theme-creator-button-container {
+	position: relative;
+}
+
+.themer-pro-ajax-save-spinner {
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	position: absolute;
+	top: 5px;
+	left: 104px;
+	float: left;
+	display: none;
+}
+
+#themer-pro-settings-form .themer-pro-ajax-save-spinner {
+	top: 13px;
+	left: 125px;
+}
+
+#themer-pro-theme-creator-button-container .themer-pro-ajax-save-spinner {
+	left: 140px;
+}
+
+.themer-pro-saved {
+	background: #2EA2CC;
+	margin: 0;
+	padding: 5px;
+	position: absolute;
+	top: 3px;
+	left: 104px;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	float: left;
+	display: none;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#themer-pro-settings-form .themer-pro-saved {
+	width: 100px;
+	padding: 5px;
+	top: 11px;
+	left: 125px;
+	text-align: center;
+}
+
+#themer-pro-file-control-save-container .themer-pro-saved {
+	top: 4px;
+}
+
+#themer-pro-settings-form .dashicons {
+	width: 20px;
+	height: 20px;
+	color: #444;
+	font-size: 20px;
+	vertical-align: bottom;
+}
+
+.fa-sass,
+.fa-less {
+	padding-top: 7px;
+	color: #333;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.themer-pro-ace-active-theme-dark .fa-sass,
+.themer-pro-ace-active-theme-dark .fa-less {
+	color: #fff;
+}
+
+.themer-pro-settings-button.button,
+button#php-builder-output-cut-button,
+button#php-builder-output-copied-button,
+.themer-pro-file-editor-textarea-form input[type=submit],
+.themer-pro-file-editor-textarea-form .themer-pro-parent-editor-read-only-button,
+.themer-pro-file-editor-textarea-form input[type=submit].themer-pro-file-editor-save-button-active,
+.themer-pro-file-editor-copy,
+.themer-pro-image-rename-button,
+.themer-pro-image-delete-button,
+.themer-pro-image-info-button,
+.themer-pro-image-delete-all-button {
+	-webkit-font-smoothing: antialiased;
+}
+
+#themer-pro-scss-php-error-message-container,
+#themer-pro-less-php-error-message-container {
+	width: 100%;
+	height: 100%;
+	margin-top: 40px;
+	float: left;
+}
+
+#themer-pro-scss-php-error-message,
+#themer-pro-less-php-error-message {
+	background: #fff;
+	max-width: 70%;
+	margin: 0 auto;
+	padding: 10px 35px 30px;
+	color: #333;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.625;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px #ccc;
+}
+
+#themer-pro-scss-php-error-message h1,
+#themer-pro-less-php-error-message h1 {
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 782px) {
+	.themer-pro-optionbox-2col-left-wrap,
+	.themer-pro-optionbox-2col-right-wrap,
+	#themer-pro-settings-nav-info-box .themer-pro-optionbox-2col-left-wrap,
+	#themer-pro-settings-nav-info-box .themer-pro-optionbox-2col-right-wrap,
+	.themer-pro-child-theme-export-2col-left,
+	.themer-pro-child-theme-export-2col-right,
+	#themer-pro-file-tree-container,
+	#themer-pro-file-editor-container {
+		width: 100% !important;
+		margin: 5px 0;
+		display: block;
+	}
+	#themer-pro-file-editor-container {
+		border: 1px solid #ddd;
+		margin-bottom: 0;
+	}
+}

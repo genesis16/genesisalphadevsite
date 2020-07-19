@@ -1,0 +1,38 @@
+.themer-pro-hooks-map .themer-pro-mapped-hooks {
+	margin: 0 !important;
+}
+
+.themer-pro-hooks-map .themer-pro-mapped-hooks-styles {
+	background: #007acc;
+	border-bottom: 1px solid #006bb3;
+	width: 100%;
+	padding: 5px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 20px;
+	clear: both;
+	-webkit-font-smoothing: antialiased;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.themer-pro-hooks-map #themer-pro-hooks-map {
+	background: #006bb3;
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	bottom: 100px;
+	right: 0px;
+	cursor: pointer;
+	z-index: 100002;
+	-webkit-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+
+.themer-pro-hooks-map #themer-pro-hooks-map .dashicons {
+	padding: 5px;
+	color: #fff;
+	font-size: 20px;
+}

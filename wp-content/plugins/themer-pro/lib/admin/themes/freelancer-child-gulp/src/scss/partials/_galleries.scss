@@ -1,0 +1,72 @@
+/* # Galleries
+================================================== */
+
+.gallery {
+	overflow: hidden;
+}
+
+.gallery-item {
+	float: left;
+	margin: 0 0 28px;
+	text-align: center;
+
+	.gallery-columns-1 & {
+		width: 100%;
+	}
+
+	.gallery-columns-2 & {
+		width: 50%;
+	}
+
+	.gallery-columns-3 & {
+		width: 33%;
+	}
+
+	.gallery-columns-4 & {
+		width: 25%;
+	}
+
+	.gallery-columns-5 & {
+		width: 20%;
+	}
+
+	.gallery-columns-6 & {
+		width: 16.66%;
+	}
+
+	.gallery-columns-7 & {
+		width: 14.28%;
+	}
+
+	.gallery-columns-8 & {
+		width: 12.5%;
+	}
+
+	.gallery-columns-9 & {
+		width: 11.11%;
+	}
+}
+
+.gallery-icon img {
+	margin: 0 auto;
+
+	&:hover,
+	&:focus {
+		opacity: 0.7;
+	}
+}
+
+.gallery-caption {
+	padding-top: 8px;
+	color: $gallery-caption--font-color;
+	font-size: $gallery-caption--font-size;
+	font-style: italic;
+	display: block;
+
+	.gallery-columns-6 &,
+	.gallery-columns-7 &,
+	.gallery-columns-8 &,
+	.gallery-columns-9 & {
+		display: none;
+	}
+}

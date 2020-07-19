@@ -1,0 +1,574 @@
+/* # Defaults
+================================================== */
+
+/* # Grid
+=================================== */
+
+.grid-layout {
+    width: 100%;
+    position: relative;
+}
+
+.grid-container {
+    width: 100%;
+    padding-left: $site-containers__left-right--padding;
+    padding-right: $site-containers__left-right--padding;
+
+	@media screen and (min-width: $small-screen-width) {
+    	padding-left: $mq-sm__site-containers__left-right--padding;
+    	padding-right: $mq-sm__site-containers__left-right--padding;
+	}
+
+	@media screen and (min-width: $medium-screen-width) {
+        padding-left: $mq-md__site-containers__left-right--padding;
+        padding-right: $mq-md__site-containers__left-right--padding;
+	}
+
+	@media screen and (min-width: $large-screen-width) {
+		padding-left: $mq-lg__site-containers__left-right--padding;
+		padding-right: $mq-lg__site-containers__left-right--padding;
+	}
+}
+
+.grid-row {
+    width: 100%;
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+.grid-column {
+    width: 100%;
+    float: left;
+}
+
+.grid-col-sm-2-3 {
+
+	@media screen and (min-width: $small-screen-width) {
+    	width: 66.6667%;
+	}
+}
+
+.grid-col-sm-1-2 {
+
+	@media screen and (min-width: $small-screen-width) {
+    	width: 50%;
+	}
+}
+
+.grid-col-sm-1-3 {
+
+	@media screen and (min-width: $small-screen-width) {
+    	width: 33.3333%;
+	}
+}
+
+.grid-col-sm-1-4 {
+
+	@media screen and (min-width: $small-screen-width) {
+    	width: 25%;
+	}
+}
+
+.grid-col-md-2-3 {
+
+	@media screen and (min-width: $medium-screen-width) {
+    	width: 66.6667%;
+	}
+}
+
+.grid-col-md-1-2 {
+
+	@media screen and (min-width: $medium-screen-width) {
+    	width: 50%;
+	}
+}
+
+.grid-col-md-1-3 {
+
+	@media screen and (min-width: $medium-screen-width) {
+    	width: 33.3333%;
+	}
+}
+
+.grid-col-md-1-4 {
+
+	@media screen and (min-width: $medium-screen-width) {
+    	width: 25%;
+	}
+}
+
+.grid-col-md-2-3 {
+
+	@media screen and (min-width: $large-screen-width) {
+    	width: 66.6667%;
+	}
+}
+
+.grid-col-md-1-2 {
+
+	@media screen and (min-width: $large-screen-width) {
+    	width: 50%;
+	}
+}
+
+.grid-col-md-1-3 {
+
+	@media screen and (min-width: $large-screen-width) {
+    	width: 33.3333%;
+	}
+}
+
+.grid-col-md-1-4 {
+
+	@media screen and (min-width: $large-screen-width) {
+    	width: 25%;
+	}
+}
+
+.grid-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .grid-break-sm & {
+
+		@media screen and (min-width: $small-screen-width) {
+			padding: 20px;
+		}
+    }
+    .grid-break-md & {
+
+		@media screen and (min-width: $medium-screen-width) {
+			padding: 20px;
+		}
+    }
+
+    .grid-break-lg & {
+
+		@media screen and (min-width: $large-screen-width) {
+			padding: 20px;
+		}
+    }
+
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+
+/* # Alignments
+=================================== */
+
+.alignleft {
+	float: left;
+	margin: 6px 28px 28px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 6px 0 28px 28px;
+}
+
+.aligncenter,
+.alignnone {
+	clear: both;
+	display: block;
+	margin: 0 auto 28px;
+}
+
+.alignnone {
+	margin: 0 0 28px;
+}
+
+
+/* # Icons
+=================================== */
+
+.menu-item-has-children a:after,
+.menu-toggle:before,
+.menu-toggle.toggled-on:before,
+.dropdown-toggle:after,
+.bypostauthor > article .fn:after,
+.post-navigation .nav-previous .meta-nav:before,
+.post-navigation .nav-next .meta-nav:after,
+.pagination .prev:before,
+.pagination .next:before,
+.pagination .prev.page-numbers:before,
+.pagination .next.page-numbers:after,
+.pagination .nav-links:before,
+.pagination .nav-links:after {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-family: FontAwesome;
+	font-size: $fontawesome__icon--font-size;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: $font-weight--regular;
+	line-height: $line-height--smaller;
+	speak: none;
+	text-align: center;
+	text-decoration: inherit;
+	text-transform: none;
+}
+
+
+/* # Typography
+=================================== */
+
+html {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	background-color: $body--background-color;
+	margin: 0;
+	color: $body--font-color;
+	font-family: $body--font-family;
+	font-size: $body--font-size;
+	font-weight: $font-weight--regular;
+	line-height: $line-height--large;
+}
+
+a {
+	color: $link--font-color;
+	text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: $link__hover--font-color;
+    }
+}
+
+p {
+	margin: 0 0 28px;
+	padding: 0;
+}
+
+ul,
+ol {
+	margin: 0 0 26px 16px;
+	padding: 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+	margin-left: 23px;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+
+hr {
+	background-color: $hr--background-color;
+	border: 0;
+	height: 1px;
+	margin: 0 0 28px;
+	clear: both;
+}
+
+dl,
+dd {
+	margin: 0 0 28px;
+}
+
+dt {
+	font-weight: $font-weight--bold;
+}
+
+b,
+strong {
+	font-weight: $font-weight--bold;
+}
+
+blockquote,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 40px;
+}
+
+
+/* # Headings
+=================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $headings--font-family;
+	font-weight: $font-weight--bold;
+	line-height: 1.25;
+	margin: 0 0 15px;
+	text-rendering: optimizeLegibility;
+}
+
+h1 {
+	font-size: $h1--font-size;
+
+	@media screen and (min-width: $medium-screen-width) {
+		font-size: $mq-md__h1--font-size;
+	}
+}
+
+h2 {
+	font-size: $h2--font-size;
+
+	@media screen and (min-width: $medium-screen-width) {
+		font-size: $mq-md__h2--font-size;
+	}
+}
+
+h3 {
+	font-size: $h3--font-size;
+
+	@media screen and (min-width: $medium-screen-width) {
+		font-size: $mq-md__h3--font-size;
+	}
+}
+
+h4 {
+	font-size: $h4--font-size;
+}
+
+h5 {
+	font-size: $h5--font-size;
+}
+
+h6 {
+	font-size: $h6--font-size;
+}
+
+
+/* # Forms
+=================================== */
+
+input,
+select,
+textarea {
+	background-color: $forms--background-color;
+	border: $border-width $border-style $border-color;
+	border-radius: 2px;
+	width: 100%;
+	padding: 10px 7px;
+	color: $forms--font-color;
+}
+
+input {
+	line-height: normal;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button {
+	background-color: $button--background-color;
+	border: 0;
+	border-radius: 2px;
+	width: auto;
+	padding: 14px 14px 12px;
+	color: $button--font-color;
+	font-weight: $font-weight--regular;
+	letter-spacing: 1px;
+	line-height: $line-height--smaller;
+	cursor: pointer;
+}
+
+button:hover,
+input:hover[type="button"],
+input:hover[type="reset"],
+input:hover[type="submit"],
+.button:hover,
+button:focus,
+input:focus[type="button"],
+input:focus[type="reset"],
+input:focus[type="submit"],
+.button:focus {
+	background-color: $button__hover--background-color;
+}
+
+input:focus,
+textarea:focus {
+	background-color: $forms__focus--background-color;
+	border-color: $med-light-gray;
+	color: $forms__focus--font-color;
+	outline: none;
+}
+
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+	width: auto;
+}
+
+.button {
+	display: inline-block;
+}
+
+.post-password-form {
+	margin-bottom: 28px;
+
+    label {
+        color: $post-password-form__label--font-color;
+        display: block;
+        font-size: $post-password-form__label--font-size;
+        letter-spacing: 1px;
+        line-height: $line-height--normal;
+        margin-bottom: 28px;
+        text-transform: uppercase;
+    }
+
+    input[type="password"] {
+        margin-top: 7px;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.search-form {
+	position: relative;
+}
+
+input[type="search"].search-field {
+	border-radius: 2px 0 0 2px;
+	width: 100%;
+}
+
+button.search-submit {
+	display: none;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+	color: $placeholder--font-color;
+}
+
+:-moz-placeholder {
+	color: $placeholder--font-color;
+}
+
+::-moz-placeholder {
+	color: $placeholder--font-color;
+	opacity: 1;
+	/* Since FF19 lowers the opacity of the placeholder by default */
+}
+
+
+/* # Tables
+=================================== */
+
+table,
+th,
+td {
+	border: $border-width $border-style $border-color;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	margin: 0 0 28px;
+	/* Prevents HTML tables from becoming too wide */
+	width: 100%;
+}
+
+caption,
+th,
+td {
+	font-weight: $font-weight--regular;
+	text-align: left;
+}
+
+th,
+td {
+	border-width: 0 1px 1px 0;
+	padding: 7px;
+}
+
+th {
+	font-weight: $font-weight--bold;
+}
+
+
+/* # Accessibility
+=================================== */
+
+/* Text meant only for screen readers */
+.says,
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	/* many screen reader and browser combinations announce broken words as they would appear visually */
+	word-wrap: normal !important;
+
+    &:focus {
+        background: $screen-reader-text__focus--background-color;
+        width: auto;
+        height: auto;
+        clip: auto !important;
+        padding: 15px 23px 14px;
+        color: $screen-reader-text__focus--font-color;
+        font-size: $screen-reader-text__focus--font-size;
+        font-weight: $font-weight--bold;
+        left: 5px;
+        line-height: normal;
+        text-decoration: none;
+        top: 5px;
+        display: block;
+        z-index: 100000; /* Above WP toolbar. */
+        -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    }
+}
+
+/* must have higher specificity than alternative color schemes inline styles */
+.site .skip-link {
+	background-color: $site__skip-link--background-color;
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+	color: $site__skip-link--font-color;
+	display: block;
+	font-size: $site__skip-link--font-size;
+	font-weight: $font-weight--bold;
+	left: -154984px;
+	outline: none;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	text-transform: none;
+	top: -154984px;
+}
+
+.logged-in .site .skip-link {
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.site .skip-link:focus {
+	clip: auto;
+	height: auto;
+	left: 6px;
+	top: 7px;
+	width: auto;
+	z-index: 100000;
+}
+
+:focus {
+	color: $focus--font-color;
+	outline: #d1d1d1 solid 1px;
+}

@@ -1,0 +1,209 @@
+/* Content Area
+---------------------------------------------------------------------------- */
+
+/* Content
+--------------------------------------------- */
+
+.content {
+
+	@media only screen and (min-width: $standard-screen-width) {
+		float: left;
+		width: 65%;
+	}
+
+	.sidebar-content & {
+
+		@media only screen and (min-width: $standard-screen-width) {
+			float: right;
+		}
+	}
+
+	.full-width-content & {
+
+		@media only screen and (min-width: $standard-screen-width) {
+			float: none;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+
+/* Entry Content
+--------------------------------------------- */
+
+.entry {
+	margin-bottom: 40px;
+}
+
+.entry-content {
+
+	ol,
+	ul {
+		margin-bottom: 30px;
+		padding-left: 40px;
+	}
+
+	ol > li {
+		list-style-type: decimal;
+	}
+
+	ul > li {
+		list-style-type: disc;
+	}
+
+	ol ul > li,
+	ul ul > li {
+		list-style-type: circle;
+	}
+
+	ol ol,
+	ul ul {
+		margin-bottom: 0;
+	}
+
+	code {
+		background-color: $code--background-color;
+	}
+}
+
+.content .sticky {
+	background-color: $sticky--background-color;
+	padding: 30px;
+}
+
+/* Entry Meta
+--------------------------------------------- */
+
+.entry-meta {
+
+	p {
+		font-size: $entry-meta--font-size;
+		margin-bottom: 0;
+	}
+
+	.entry-header & {
+		margin-bottom: 20px;
+	}
+
+	.entry-footer & {
+		border-top: 1px solid $lighter-gray;
+		padding-top: 20px;
+	}
+}
+
+.entry-categories,
+.entry-tags {
+	display: block;
+}
+
+.entry-comments-link::before {
+	content: "\2014";
+	margin: 0 6px 0 2px;
+}
+
+/* Pagination
+--------------------------------------------- */
+
+.pagination {
+	clear: both;
+	margin: 60px 0;
+}
+
+.adjacent-entry-pagination {
+	margin-bottom: 0;
+}
+
+.archive-pagination li {
+	display: inline;
+
+	a {
+		background-color: $archive-pagination--background-color;
+		color: $archive-pagination--font-color;
+		cursor: pointer;
+		display: inline-block;
+		font-size: $archive-pagination--font-size;
+		font-weight: $font-weight--semibold;
+		margin-bottom: 4px;
+		padding: 8px 12px;
+		text-decoration: none;
+	}
+
+	a:focus,
+	a:hover,
+	&.active a {
+		background-color: $archive-pagination--background-color-hover;
+		color: $archive-pagination--font-color-hover;
+	}
+}
+
+/* Entry Comments
+--------------------------------------------- */
+
+.comment-respond,
+.entry-comments,
+.entry-pings {
+	margin-bottom: 40px;
+}
+
+.comment-list li {
+	padding: 40px 0 0 30px;
+}
+
+.comment-list .depth-1 {
+	padding-left: 0;
+}
+
+.comment-header {
+	margin-bottom: 30px;
+}
+
+.comment-content {
+	clear: both;
+
+	ul > li {
+		list-style-type: disc;
+	}
+}
+
+.comment-respond {
+
+	input[type="email"],
+	input[type="text"],
+	input[type="url"] {
+		width: 50%;
+	}
+
+	label {
+		display: block;
+		margin-right: 12px;
+	}
+}
+
+.comment-header p {
+	margin-bottom: 0;
+}
+
+.entry-pings .reply {
+	display: none;
+}
+
+.comment-form-cookies-consent label {
+	display: inline;
+	padding-left: 10px;
+}
+
+/* Entry Misc.
+--------------------------------------------- */
+
+.after-entry,
+.archive-description,
+.author-box,
+.comment-respond,
+.entry,
+.entry-comments,
+.entry-pings {
+
+	@media only screen and (min-width: $standard-screen-width) {
+		margin-bottom: 60px;
+	}
+}

@@ -1,0 +1,39 @@
+/* Structure and Layout
+---------------------------------------------------------------------------- */
+
+/* Site Container
+--------------------------------------------- */
+
+.site-container {
+	animation: fadein 1s;
+	word-wrap: break-word;
+}
+
+@keyframes fadein {
+
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+
+}
+
+/* Site Inner
+--------------------------------------------- */
+
+.site-inner {
+	clear: both;
+	margin: 0 auto;
+	padding: 60px 30px 0;
+	
+	.genesis-title-hidden & {
+	    padding-top: 0;
+	}
+
+	@media only screen and (min-width: $standard-screen-width) {
+		max-width: 1140px;
+	}
+}

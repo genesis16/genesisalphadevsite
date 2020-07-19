@@ -1,0 +1,23 @@
+{
+    "Primary Styles" : {
+        "Import Path": "/scss/",
+        "Formatter": "Expanded",
+        "PreCSS File Path": "/scss/style.scss",
+        "CSS File Path": "/style.css",
+        "PreCSS Images Path": "/scss/images/",
+        "CSS Images Path": "/images/",
+        "Images Sync Type": "update"
+    },
+    "Editor Styles" : {
+        "Import Path": "/scss/",
+        "Formatter": "Expanded",
+        "PreCSS File Path": "/scss/style-editor.scss",
+        "CSS File Path": "/lib/gutenberg/style-editor.css"
+    },
+    "Front-End Styles" : {
+        "Import Path": "/scss/",
+        "Formatter": "Expanded",
+        "PreCSS File Path": "/scss/front-end.scss",
+        "CSS File Path": "/lib/gutenberg/front-end.css"
+    }
+}

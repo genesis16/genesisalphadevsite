@@ -1,0 +1,38 @@
+/* # Post Meta
+================================================== */
+
+.post-meta {
+	color: $post-meta--font-color;
+	font-size: $post-meta--font-size;
+	font-style: italic;
+	line-height: $line-height--normal;
+
+	&:empty {
+		margin: 0;
+	}
+
+	a {
+		color: $post-meta__a--font-color;
+
+		&:hover,
+		&:focus {
+			color: $post-meta__a__hover--font-color;
+		}
+	}
+
+	> span:not(:last-of-type):after {
+		content: "\002f";
+		display: inline-block;
+		opacity: 0.7;
+		padding: 0 7px;
+	}
+}
+
+.post-meta-top {
+	margin-bottom: 30px;
+}
+
+.single .post-meta-bottom {
+	border-top: 1px solid $light-gray;
+	padding-top: 20px;
+}

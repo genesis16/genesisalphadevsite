@@ -1,0 +1,116 @@
+// Base Colors
+$black: #000;
+$dark-gray: #333;
+$med-gray: #777;
+$med-light-gray: #999;
+$light-gray: #ddd;
+$lighter-gray: #eee;
+$lightest-gray: #f5f5f5;
+$blue: #0073e5;
+$white: #fff;
+
+// Base Fonts
+$base-font: "Source Sans Pro", sans-serif;
+
+// Screen widths
+$small-screen-width: 480px;
+$standard-screen-width: 960px;
+
+// Border styles
+$border-width: 1px;
+$border-style: solid;
+$border-color-med-light: $med-light-gray;
+$border-color-light: $light-gray;
+$border-color-lighter: $lighter-gray;
+
+// Box Shadow
+$box-shadow-blur-radius: 20px;
+$box-shadow-opacity: 0.05;
+
+// Font sizes
+$body--font-size: 18px;
+$h1--font-size: 30px;
+$h2--font-size: 27px;
+$h3--font-size: 24px;
+$h4--font-size: 20px;
+$h5--font-size: 18px;
+$h6--font-size: 16px;
+$button--font-size: 16px;
+$archive-author-box__entry-title--font-size: 20px;
+$breadcrumb--font-size: 16px;
+$entry-title--font-size: 30px;
+$featured-content__entry-title--font-size: 16px;
+$enews-widget__input--font-size: 16px;
+$wpforms-widget__field-sublabel--font-size: 14px;
+$site-title--font-size: 20px;
+$genesis-nav-menu--font-size: 15px;
+$genesis-nav-menu__sub-menu__link--font-size: 14px;
+$sidebar--font-size: 16px;
+$entry-content__caption--font-size: 14px;
+$entry-meta--font-size: 16px;
+$site-footer--font-size: 15px;
+$forms--font-size: 18px;
+$widget-title--font-size: 18px;
+$archive-pagination--font-size: 16px;
+$after-entry__breadcrumb--font-size: 16px;
+
+// Font families
+$body--font-family: $base-font;
+$headings--font-family: $base-font;
+
+// Font weights
+$font-weight--light: 300;
+$font-weight--regular: 400;
+$font-weight--semibold: 600;
+$font-weight--bold: 700;
+
+// Line heights
+$line-height--big: 20px;
+$line-height--large: 2;
+$line-height--normal: 1.625;
+$line-height--medium: 1.5;
+$line-height--small: 1.2;
+$line-height--smaller: 1;
+
+// Font colors
+$body--font-color: $dark-gray;
+$link--font-color: $blue;
+$link--font-color-hover: $dark-gray;
+$mark--font-color: $dark-gray;
+$button--font-color: $white;
+$button--font-color-hover: $white;
+$entry-title__link--font-color: $dark-gray;
+$entry-title__link--font-color-hover: $blue;
+$site-title__link--font-color: $dark-gray;
+$genesis-nav-menu--font-color: $dark-gray;
+$genesis-nav-menu--font-color-hover: $blue;
+$genesis-nav-menu__sub-menu__link--font-color-hover: $blue;
+$menu-toggle--font-color: $dark-gray;
+$menu-toggle--font-color-hover: $blue;
+$menu-highlight__link--font-color: $white;
+$sidebar__widget-title--font-color: $dark-gray;
+$forms--font-color: $dark-gray;
+$archive-pagination--font-color: $dark-gray;
+$archive-pagination--font-color-hover: $white;
+$gs-faq__question--font-color: $dark-gray;
+$gs-faq__question--font-color-hover: $blue;
+$disabled--font-color: $med-gray;
+
+// Background colors
+$body--background-color: $white;
+$site-header--background-color: $white;
+$mark--background-color: $light-gray;
+$button--background-color: $dark-gray;
+$button--background-color-hover: $blue;
+$genesis-nav-menu__sub-menu__link--background-color: $white;
+$footer-widgets--background-color: $white;
+$menu-highlight__link--background-color: $dark-gray;
+$menu-highlight__link--background-color-hover: $blue;
+$forms__background-color: $white;
+$sticky--background-color: $lightest-gray;
+$author-box--background-color: $lighter-gray;
+$code--background-color: $lightest-gray;
+$archive-pagination--background-color: $lightest-gray;
+$archive-pagination--background-color-hover: $dark-gray;
+$enews__sidebar--background-color: $lightest-gray;
+$disabled--background-color: $lighter-gray;

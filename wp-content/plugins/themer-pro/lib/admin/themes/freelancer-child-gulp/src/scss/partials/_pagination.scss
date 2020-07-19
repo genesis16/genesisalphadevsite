@@ -1,0 +1,217 @@
+/* # Pagination
+================================================== */
+
+.post-navigation {
+	border-top: 1px solid $light-gray;
+	border-bottom: 1px solid $light-gray;
+	margin: 0 auto 54px;
+	clear: both;
+
+	@media screen and (min-width: $small-screen-width) {
+    	margin-bottom: 80px;
+	}
+
+	@media screen and (min-width: $large-screen-width) {
+    	margin-bottom: 100px;
+	}
+
+	a {
+		padding: 28px 0;
+		color: $post-navigation__a--font-color;
+		display: block;
+	}
+
+	span {
+		display: block;
+	}
+
+	.meta-nav {
+		margin-bottom: 8px;
+		color: $post-navigation__meta-nav--font-color;
+		font-size: $post-navigation__meta-nav--font-size;
+		letter-spacing: 1px;
+		line-height: $line-height--normal;
+	}
+
+	.nav-previous .meta-nav:before {
+		content: "\f100";
+		padding-right: 5px;
+	}
+
+	.nav-next .meta-nav:after {
+		content: "\f101";
+		padding-left: 5px;
+	}
+
+	.post-title {
+		display: inline;
+		font-size: $post-navigation__post-title--font-size;
+		font-weight: $font-weight--regular;
+		line-height: $line-height--small;
+		text-rendering: optimizeLegibility;
+		@media screen and (min-width: $small-screen-width) {
+			font-size: $mq-sm__post-navigation__post-title--font-size;
+		}
+	}
+
+	a:hover .post-title,
+	a:focus .post-title {
+		color: $post-navigation__a__hover__post-title--font-color;
+	}
+
+	div + div {
+		border-top: 1px solid $light-gray;
+	}
+}
+
+.pagination {
+	border-top: 1px solid $light-gray;
+	margin: 0 auto;
+	font-size: $pagination--font-size;
+
+	a:hover,
+	a:focus {
+		color: $pagination__a__hover--font-color;
+	}
+
+	.nav-links {
+		padding-top: 10px;
+	}
+
+	.current {
+		display: inline-block;
+		font-weight: $font-weight--bold;
+		& .screen-reader-text {
+			@media screen and (min-width: $small-screen-width) {
+				position: absolute !important;
+			}
+		}
+	}
+
+	.prev:hover,
+	.prev:focus,
+	.next:hover,
+	.next:focus {
+		color: $pagination__prev-next__hover--font-color;
+	}
+
+	.prev:focus,
+	.next:focus {
+		outline: none;
+	}
+}
+
+.comment-navigation {
+	border-top: 1px solid $light-gray;
+	border-bottom: 1px solid $light-gray;
+	margin: 0 auto 33px;
+	padding: 14px 0;
+	color: $comment-navigation--font-color;
+	font-size: $comment-navigation--font-size;
+	line-height: $line-height--normal;
+
+	.comments-title + & {
+		border-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	.nav-previous:not(:empty),
+	.nav-next:not(:empty) {
+		display: inline-block;
+	}
+
+	.nav-previous:not(:empty) + .nav-next:not(:empty):before {
+		content: "\002f";
+		display: inline-block;
+		opacity: 0.7;
+		padding: 0 8px;
+	}
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 28px;
+}
+
+.page-links a,
+.page-links > span,
+.pagination .page-numbers {
+	display: inline-block;
+	font-size: $page-links__a--font-size;
+	font-weight: $font-weight--regular;
+	height: 29px;
+	line-height: 26px;
+	color: $page-links__a--font-color;
+	text-align: center;
+	width: 29px;
+	text-decoration: none;
+}
+
+.pagination .page-numbers {
+	width: 34px;
+	height: 34px;
+	font-size: $pagination__page-numbers--font-size;
+	line-height: 31px;
+	@media screen and (min-width: $small-screen-width) {
+		display: inline-block;
+	}
+}
+
+.page-links > span:not(.page-links-title),
+.pagination .page-numbers.current {
+	color: $pagination__page-numbers__current--font-color;
+	cursor: pointer;
+}
+
+.page-links > span.page-links-title {
+	background-color: transparent;
+	border: 0;
+	color: $page-links__span__page-links-title--font-color;
+}
+
+.page-links a:hover,
+.page-links a:focus,
+.pagination .page-numbers:hover,
+.pagination .page-numbers:focus {
+	color: $page-links__a__hover--font-color;
+}
+
+.pagination .prev.page-numbers,
+.pagination .next.page-numbers {
+	width: auto;
+	height: auto;
+	margin-right: 0;
+	line-height: $line-height--smaller;
+	text-align: left;
+}
+
+.pagination .next.page-numbers {
+	padding-top: 8px;
+	float: right;
+}
+
+.pagination .prev.page-numbers,
+.pagination .prev.page-numbers:before {
+	padding-right: 5px;
+}
+
+.pagination .next.page-numbers:after {
+	padding-left: 5px;
+}
+
+.pagination .prev.page-numbers:before {
+	content: "\f100";
+}
+
+.pagination .next.page-numbers:after {
+	content: "\f101";
+}
+
+.page-links > .page-links-title {
+	border: 0;
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding-right: 10px;
+	color: $page-links__page-links-title--font-color;
+}

@@ -1,0 +1,68 @@
+/*!
+Theme Name: Freelancer Child Pro
+Theme URI: https://cobaltapps.com/downloads/freelancer-framework/
+Author: Cobalt Apps
+Author URI: https://cobaltapps.com/
+Description: This is a Child Theme created for the Freelancer Framework.
+Version: 1.0.0
+Template: freelancer
+Template Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-menu, custom-logo, featured-images, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+/*! Table of Contents
+=======================
+- Resets
+	- Normalize
+	- Box Sizing
+	- Clearings
+- Defaults
+	- Grid
+	- Alignments
+	- Icons
+	- Typography
+	- Headings
+	- Forms
+	- Tables
+	- Accessibility
+- Widgets
+- Containers
+- Header
+- Menus
+- Page Headings
+- Content
+- Post Meta
+- Author Info
+- Pagination
+- Comments
+- Sidebar
+- Footer
+- Media
+- Captions
+- Galleries
+- Custom
+- Print
+======================= */
+
+@import "partials/variables";
+@import "partials/resets";
+@import "partials/defaults";
+@import "partials/widgets";
+@import "partials/containers";
+@import "partials/header";
+@import "partials/menus";
+@import "partials/page-headings";
+@import "partials/content";
+@import "partials/post-meta";
+@import "partials/author-info";
+@import "partials/pagination";
+@import "partials/comments";
+@import "partials/sidebar";
+@import "partials/footer";
+@import "partials/media";
+@import "partials/captions";
+@import "partials/galleries";
+@import "partials/custom";
+@import "partials/print";

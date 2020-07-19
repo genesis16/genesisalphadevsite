@@ -1,0 +1,64 @@
+/* Site Header
+---------------------------------------------------------------------------- */
+
+.site-header {
+	background-color: $site-header--background-color;
+	box-shadow: 0 0 $box-shadow-blur-radius rgba(0, 0, 0, $box-shadow-opacity);
+	padding: 0 30px;
+
+	@media only screen and (min-width: $standard-screen-width) {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		z-index: 9999;
+		
+    	.admin-bar & {
+    		top: 32px;
+    	}
+	}
+}
+
+/* Title Area
+--------------------------------------------- */
+
+.title-area {
+	float: left;
+	padding-bottom: 25px;
+	padding-top: 25px;
+
+	.wp-custom-logo & {
+		max-width: 350px;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		width: 100%;
+	}
+
+	.wp-custom-logo & img {
+		width: auto;
+	}
+}
+
+.site-title {
+	font-size: $site-title--font-size;
+	font-weight: $font-weight--semibold;
+	line-height: $line-height--smaller;
+	margin-bottom: 0;
+
+	a,
+	a:focus,
+	a:hover {
+		color: $site-title__link--font-color;
+		text-decoration: none;
+	}
+}
+
+.site-description,
+.wp-custom-logo .site-title {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}

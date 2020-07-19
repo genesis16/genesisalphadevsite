@@ -1,0 +1,18 @@
+/* # Page Headings
+================================================== */
+
+.page-header {
+	border-top: 1px solid $light-gray;
+	margin: 0 auto 54px;
+	padding-top: 28px;
+
+	body.error404 &,
+	body.search-no-results & {
+		border-top: 0;
+		padding-top: 0;
+	}
+}
+
+.page-title {
+	font-size: $page-title--font-size;
+}
