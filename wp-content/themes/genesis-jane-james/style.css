@@ -1,3 +1,4 @@
+@import "partials/classes";
 /*
  Theme Name: Genesis jane james
  Theme URI: www.alphaomegadigital.com.au
@@ -534,207 +535,6 @@ td:last-child, th:last-child {
     max-width: 1140px;
   }
 }
-/* Common Classes
- ---------------------------------------------------------------------------- */
-/* Avatar
- --------------------------------------------- */
-.avatar {
-  border-radius: 50%;
-  float: left;
-}
-.author-box .avatar, .alignleft .avatar {
-  margin-right: 20px;
-}
-.alignright .avatar {
-  margin-left: 20px;
-}
-.comment .avatar {
-  margin: 0 15px 20px 0;
-}
-/* Genesis
- --------------------------------------------- */
-.after-entry, .archive-description, .author-box {
-  margin-bottom: 40px;
-}
-.after-entry {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  padding: 20px 30px;
-}
-@media only screen and (min-width: 960px) {
-  .after-entry {
-    padding: 40px 60px;
-  }
-}
-@media only screen and (min-width: 960px) {
-  .after-entry .enews {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-.after-entry .widget:last-of-type {
-  margin-bottom: 0;
-}
-@media only screen and (min-width: 960px) {
-  .author-box {
-    background-color: #eee;
-    border: 1px solid #f5f5f5;
-    padding: 30px;
-  }
-}
-.breadcrumb {
-  border-bottom: 1px solid #eee;
-  font-size: 16px;
-  margin-bottom: 40px;
-  padding-bottom: 10px;
-}
-.genesis-title-hidden .breadcrumb {
-  margin-top: 40px;
-}
-.archive-description p:last-child, .author-box p:last-child {
-  margin-bottom: 0;
-}
-/* Search Form
- --------------------------------------------- */
-.search-form {
-  overflow: hidden;
-}
-.entry-content .search-form {
-  margin-bottom: 40px;
-  width: 50%;
-}
-.post-password-form input[type="submit"], .search-form input[type="submit"] {
-  margin-top: 10px;
-}
-.widget_search input[type="submit"] {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-/* Titles
- --------------------------------------------- */
-.archive-description .entry-title, .archive-title, .author-box-title {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-.entry-title {
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-.entry-title a {
-  color: #333;
-  text-decoration: none;
-}
-.entry-title a:focus, .entry-title a:hover {
-  color: #0073e5;
-}
-.sidebar .widget-title, .sidebar .widget-title a {
-  color: #333;
-  text-decoration: none;
-}
-.widget-title {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-/* Column Classes
- --------------------------------------------- */
-@media only screen and (min-width: 960px) {
-  .five-sixths, .four-sixths, .one-fourth, .one-half, .one-sixth, .one-third, .three-fourths, .three-sixths, .two-fourths, .two-sixths, .two-thirds {
-    float: left;
-    margin-left: 2.5641025641%;
-  }
-}
-@media only screen and (min-width: 960px) {
-  .one-half, .three-sixths, .two-fourths {
-    width: 48.7179487179%;
-  }
-}
-@media only screen and (min-width: 960px) {
-  .one-third, .two-sixths {
-    width: 31.6239316239%;
-  }
-}
-@media only screen and (min-width: 960px) {
-  .four-sixths, .two-thirds {
-    width: 65.811965812%;
-  }
-}
-@media only screen and (min-width: 960px) {
-  .one-fourth {
-    width: 23.0769230769%;
-  }
-}
-@media only screen and (min-width: 960px) {
-  .three-fourths {
-    width: 74.358974359%;
-  }
-}
-@media only screen and (min-width: 960px) {
-  .one-sixth {
-    width: 14.5299145299%;
-  }
-}
-@media only screen and (min-width: 960px) {
-  .five-sixths {
-    width: 82.905982906%;
-  }
-}
-@media only screen and (min-width: 960px) {
-  .first {
-    clear: both;
-    margin-left: 0;
-  }
-}
-/* WordPress
- --------------------------------------------- */
-a.aligncenter img {
-  display: block;
-  margin: 0 auto;
-}
-a.alignnone {
-  display: inline-block;
-}
-.alignleft {
-  float: left;
-  text-align: left;
-}
-.alignright {
-  float: right;
-  text-align: right;
-}
-a.alignleft, a.alignnone, a.alignright {
-  max-width: 100%;
-}
-img.centered, .aligncenter, .singular-image {
-  display: block;
-  margin: 0 auto 30px;
-}
-img.alignnone, .alignnone {
-  margin-bottom: 15px;
-}
-a.alignleft, img.alignleft, .wp-caption.alignleft {
-  margin: 0 20px 20px 0;
-}
-a.alignright, img.alignright, .wp-caption.alignright {
-  margin: 0 0 20px 20px;
-}
-.gallery-caption, .wp-caption-text {
-  font-size: 14px;
-  font-weight: 600;
-  margin: 0;
-  text-align: center;
-}
-.entry-content p.wp-caption-text {
-  margin-bottom: 0;
-}
-.entry-content .wp-audio-shortcode, .entry-content .wp-playlist, .entry-content .wp-video {
-  margin: 0 0 30px;
-}
 /* Widgets
  ---------------------------------------------------------------------------- */
 .widget {
@@ -905,9 +705,6 @@ a.alignright, img.alignright, .wp-caption.alignright {
     top: 32px;
   }
 }
-.site-header .wp-custom-logo .title-area img {
-  width: 50% !important;
-}
 /* Title Area
  --------------------------------------------- */
 .title-area {
@@ -920,10 +717,10 @@ a.alignright, img.alignright, .wp-caption.alignright {
   max-width: 350px;
   padding-bottom: 5px;
   padding-top: 5px;
-  width: 50%;
+  width: 30%;
 }
 .wp-custom-logo .title-area img {
-  width: 50%;
+  width: 30%;
 }
 .site-title {
   font-size: 20px;
@@ -1306,10 +1103,18 @@ a.alignright, img.alignright, .wp-caption.alignright {
 }
 /* Entry Misc.
  --------------------------------------------- */
+.after-entry, .archive-description, .author-box, .comment-respond, .entry, .entry-comments, .entry-pings {
+  /* Additional CSS 
+   ---------------------------------------------- */
+}
 @media only screen and (min-width: 960px) {
   .after-entry, .archive-description, .author-box, .comment-respond, .entry, .entry-comments, .entry-pings {
     margin-bottom: 60px;
   }
+}
+.after-entry .after-hero, .archive-description .after-hero, .author-box .after-hero, .comment-respond .after-hero, .entry .after-hero, .entry-comments .after-hero, .entry-pings .after-hero {
+  height: 100vh;
+  background-color: blue;
 }
 /* Sidebar
  ---------------------------------------------------------------------------- */
