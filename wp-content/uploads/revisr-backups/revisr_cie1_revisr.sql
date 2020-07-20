@@ -19,12 +19,12 @@ CREATE TABLE `cie1_revisr` (
   `event` varchar(42) NOT NULL,
   `user` varchar(60) DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `cie1_revisr` WRITE;
 /*!40000 ALTER TABLE `cie1_revisr` DISABLE KEYS */;
-INSERT INTO `cie1_revisr` VALUES (1,'2020-07-19 10:34:02','Successfully created a new repository.','init','njfigh'),(2,'2020-07-19 10:37:46','Successfully pushed 1 commit to origin/master.','push','njfigh'),(3,'2020-07-19 10:38:49','Error staging files.','error','njfigh'),(4,'2020-07-19 10:38:49','There was an error committing the changes to the local repository.','error','njfigh');
+INSERT INTO `cie1_revisr` VALUES (1,'2020-07-19 10:34:02','Successfully created a new repository.','init','njfigh'),(2,'2020-07-19 10:37:46','Successfully pushed 1 commit to origin/master.','push','njfigh'),(3,'2020-07-19 10:38:49','Error staging files.','error','njfigh'),(4,'2020-07-19 10:38:49','There was an error committing the changes to the local repository.','error','njfigh'),(5,'2020-07-19 10:40:00','Successfully backed up the database.','backup','Revisr Bot'),(6,'2020-07-19 10:40:14','Successfully pushed 2 commits to origin/master.','push','Revisr Bot'),(7,'2020-07-19 10:40:14','The daily backup was successful.','backup','Revisr Bot');
 /*!40000 ALTER TABLE `cie1_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
