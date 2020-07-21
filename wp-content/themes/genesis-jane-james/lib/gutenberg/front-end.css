@@ -201,12 +201,6 @@ h1.light, h2.light, h3.light, h4.light, h5.light, h6.light {
 }
 /* Block figures 
  ----------------------------------------------------------------------------*/
-wp-block-gallery .blocks-gallery-item figure {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  width: 40px;
-}
 /* Latest Posts Block
  ---------------------------------------------------------------------------- */
 .site-container .wp-block-latest-posts {
@@ -226,6 +220,9 @@ wp-block-gallery .blocks-gallery-item figure {
  ---------------------------------------------------------------------------- */
 .ab-block-post-grid h2 a {
   text-decoration: none;
+}
+.ab-block-container .ab-container-content {
+  padding-right: 100px;
 }
 @media only screen and (max-width: 510px) {
   .ab-block-container.alignfull::before {

@@ -293,12 +293,7 @@ h6.light {
 }
 /* Block figures 
 ----------------------------------------------------------------------------*/
-wp-block-gallery .blocks-gallery-item figure {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  width: 40px;
-}
+
 /* Latest Posts Block
 ---------------------------------------------------------------------------- */
 
@@ -325,6 +320,9 @@ wp-block-gallery .blocks-gallery-item figure {
 .ab-block-post-grid h2 a {
   text-decoration: none;
 }
+ .ab-block-container .ab-container-content{
+     padding-right: 100px;
+ }
 
 .ab-block-container.alignfull::before {
   @media only screen and (max-width: 510px) {
