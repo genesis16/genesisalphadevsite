@@ -101,6 +101,13 @@ function cobalt_apps_admin_bar_menu() {
         		'title' => 'Custom Preview',
         		'href' => admin_url( 'admin.php?page=extender-pro-custom&iframe=active' ),
             ) );
+
+            $wp_admin_bar->add_node( array(
+            	'parent' => 'extender-pro-wp-admin-bar',
+        		'id' => 'extender-pro-wp-admin-bar-blocks',
+        		'title' => 'Extender Blocks',
+        		'href' => admin_url( 'edit.php?post_type=extender_blocks' ),
+            ) );
             
             $wp_admin_bar->add_node( array(
             	'parent' => 'extender-pro-wp-admin-bar',
@@ -337,18 +344,6 @@ function cobalt_apps_admin_bar_menu() {
         		'title' => 'Instant IDE',
         		'href' => get_home_url() . '/' . IIDEM_IIDE_DIR_NAME . '/',
             ) );
-    	    
-	        
-	        if ( IIDE_CURRENT_VERSION !== 'Not Installed' ) {
-	            
-                $wp_admin_bar->add_node( array(
-                	'parent' => 'instant-ide-wp-admin-bar',
-            		'id' => 'instant-ide-wp-admin-bar-iide-preview',
-            		'title' => 'Instant IDE Preview',
-            		'href' => get_home_url() . '/' . IIDEM_IIDE_DIR_NAME . '/?sitePreview=true',
-                ) );
-	            
-	        }
 	        
 	    }
 	    

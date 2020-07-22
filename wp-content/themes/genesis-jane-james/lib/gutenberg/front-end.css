@@ -199,8 +199,12 @@ h1.light, h2.light, h3.light, h4.light, h5.light, h6.light {
 .site-container .wp-block-categories .wp-block-categories .children {
   padding-left: 30px;
 }
-/* Block figures 
+/* Custom block styles
  ----------------------------------------------------------------------------*/
+.titlep2 {
+  line-height: 0.8em;
+  padding-right: 60px;
+}
 /* Latest Posts Block
  ---------------------------------------------------------------------------- */
 .site-container .wp-block-latest-posts {

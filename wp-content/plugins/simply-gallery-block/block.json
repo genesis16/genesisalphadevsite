@@ -1,0 +1,8 @@
+{
+  "name": "pgcsimplygalleryblock/masonry",
+  "title": "SimpLy Masonry",
+  "description": "Create beautiful galleries in seconds. Display multiple images in an organized masonry gallery.",
+  "category": "widgets",
+  "editorScript": "/dist/blocks.build.js",
+  "editorStyle": "/dist/blocks.build.style.css"
+}

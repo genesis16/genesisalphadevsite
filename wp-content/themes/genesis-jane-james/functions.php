@@ -260,4 +260,9 @@ add_theme_support( 'custom-logo', array(
 	'flex-height' => true,
 	'flex-width'  => true,
 ) );
+/* Gutenberg functions */
 
+function do_shortcode_in_gut($block_content, $block) {
+    return do_shortcode($block_content);
+}
+add_filter( 'render_block', 'do_shortcode_in_gut', 99, 2 );
