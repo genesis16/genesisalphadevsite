@@ -201,11 +201,11 @@ h1.light, h2.light, h3.light, h4.light, h5.light, h6.light {
 }
 /* Custom block styles
  ----------------------------------------------------------------------------*/
-.titlep2 {
-  line-height: 0.8em;
-  padding-right: 60px;
-}
-/* Latest Posts Block
+/* .titlep2 {
+ line-height: 0.8em;
+ padding-right:60px;
+ }
+ /* Latest Posts Block
  ---------------------------------------------------------------------------- */
 .site-container .wp-block-latest-posts {
   margin-left: 0;
@@ -224,9 +224,6 @@ h1.light, h2.light, h3.light, h4.light, h5.light, h6.light {
  ---------------------------------------------------------------------------- */
 .ab-block-post-grid h2 a {
   text-decoration: none;
-}
-.ab-block-container .ab-container-content {
-  padding-right: 100px;
 }
 @media only screen and (max-width: 510px) {
   .ab-block-container.alignfull::before {
@@ -265,6 +262,9 @@ hr.wp-block-separator {
   display: inline-block;
   width: 100%;
 }
+.wp-block-columns {
+  flex-wrap: nowrap;
+}
 .site-container .blocks-gallery-grid, .site-container .wp-block-gallery {
   padding-left: 0;
 }
@@ -285,11 +285,6 @@ hr.wp-block-separator {
     margin-left: calc(-100vw / 2 + 100% / 2);
     margin-right: calc(-100vw / 2 + 100% / 2);
     width: 100vw;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .wp-block-media-text.is-stacked-on-mobile figure {
-    margin-bottom: 20px;
   }
 }
 /* Media Queries

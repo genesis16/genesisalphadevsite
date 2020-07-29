@@ -293,7 +293,7 @@ h6.light {
 }
 /* Custom block styles
 ----------------------------------------------------------------------------*/
-.titlep2 {
+/* .titlep2 {
 	line-height: 0.8em;
 	padding-right:60px;
 }
@@ -324,9 +324,6 @@ h6.light {
 .ab-block-post-grid h2 a {
   text-decoration: none;
 }
- .ab-block-container .ab-container-content{
-     padding-right: 100px;
- }
 
 .ab-block-container.alignfull::before {
   @media only screen and (max-width: 510px) {
@@ -376,6 +373,9 @@ h6.light {
   display: inline-block;
   width: 100%;
 }
+.wp-block-columns {
+    flex-wrap: nowrap;
+}
 
 .site-container .blocks-gallery-grid,
 .site-container .wp-block-gallery {
@@ -405,11 +405,6 @@ h6.light {
   }
 }
 
-.wp-block-media-text.is-stacked-on-mobile figure {
-  @media only screen and (max-width: 600px) {
-    margin-bottom: 20px;
-  }
-}
 
 /* Media Queries
 ---------------------------------------------------------------------------- */
