@@ -1190,8 +1190,9 @@ td:last-child, th:last-child {
   .hero-title {
     padding-top: 50px;
     font-size: 35px;
-    margin-left: 40px;
+    margin-left: 100px;
     line-height: 0.8em;
+    position: relative;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1271,7 +1272,6 @@ td:last-child, th:last-child {
 }
 @media only screen and (max-width: 600px) {
   .hero-button {
-    margin-left: -50px;
     padding-bottom: 40px;
     margin-top: -30px;
   }
