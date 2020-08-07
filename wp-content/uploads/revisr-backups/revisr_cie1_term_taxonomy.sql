@@ -22,12 +22,12 @@ CREATE TABLE `cie1_term_taxonomy` (
   PRIMARY KEY (`term_taxonomy_id`),
   UNIQUE KEY `term_id_taxonomy` (`term_id`,`taxonomy`),
   KEY `taxonomy` (`taxonomy`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `cie1_term_taxonomy` WRITE;
 /*!40000 ALTER TABLE `cie1_term_taxonomy` DISABLE KEYS */;
-INSERT INTO `cie1_term_taxonomy` VALUES (1,1,'category','',0,1),(2,2,'nav_menu','',0,5);
+INSERT INTO `cie1_term_taxonomy` VALUES (1,1,'category','',0,0),(2,2,'nav_menu','',0,5),(3,3,'category','You can set how many columns to show for each category, or the whole blog, or the whole site, with simple archive settings included in Mai Pro. Also, just to let you know, the recipes you see here are all managed and displayed with the wonderful <a href=\"https://cookbookplugin.com/cook/37/\">Cookbook plugin</a>.\r\n\r\n[grid content=\"category\" parent=\"18\" columns=\"2\" show=\"image, title\" image_location=\"bg\" align=\"center, middle\"]',0,6),(4,4,'category','',3,0),(5,5,'category','',0,3),(6,6,'category','',3,1),(7,7,'category','',3,3),(8,8,'category','',3,2),(9,9,'category','',3,0),(10,10,'category','',3,0),(11,11,'nav_menu','',0,3),(12,12,'nav_menu','',0,19);
 /*!40000 ALTER TABLE `cie1_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

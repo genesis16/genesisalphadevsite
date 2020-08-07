@@ -34,12 +34,12 @@ CREATE TABLE `cie1_comments` (
   KEY `comment_date_gmt` (`comment_date_gmt`),
   KEY `comment_parent` (`comment_parent`),
   KEY `comment_author_email` (`comment_author_email`(10))
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `cie1_comments` WRITE;
 /*!40000 ALTER TABLE `cie1_comments` DISABLE KEYS */;
-INSERT INTO `cie1_comments` VALUES (1,1,'A WordPress Commenter','wapuu@wordpress.example','https://wordpress.org/','','2020-07-12 23:54:19','2020-07-12 23:54:19','Hi, this is a comment.\nTo get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.\nCommenter avatars come from <a href=\"https://gravatar.com\">Gravatar</a>.',0,'1','','',0,0);
+INSERT INTO `cie1_comments` VALUES (1,1,'A WordPress Commenter','wapuu@wordpress.example','https://wordpress.org/','','2020-07-12 23:54:19','2020-07-12 23:54:19','Hi, this is a comment.\nTo get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.\nCommenter avatars come from <a href=\"https://gravatar.com\">Gravatar</a>.',0,'1','','',0,0),(2,1929,'David Schmeltzle','david@bizbudding.com','','75.99.169.62','2017-05-23 20:18:39','2017-05-23 20:18:39','Trail running is my way of recharging.',0,'1','','',0,0),(3,1929,'Mike Hemberger','mike@bizbudding.com','','73.160.118.92','2017-05-23 20:21:07','2017-05-23 20:21:07','I prefer mountain biking, but as long as you\\\'re outside it\\\'s all good!',0,'1','','',2,0),(4,1929,'Brandi Capozzi','brandi@bizbudding.com','','68.110.195.241','2017-07-27 13:21:19','2017-07-27 13:21:19','Agreed! Being outdoors centers me and keeps me working toward my goals.',0,'1','','',3,0);
 /*!40000 ALTER TABLE `cie1_comments` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
