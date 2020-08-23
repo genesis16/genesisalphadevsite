@@ -20,12 +20,12 @@ CREATE TABLE `cie1_terms` (
   PRIMARY KEY (`term_id`),
   KEY `slug` (`slug`(191)),
   KEY `name` (`name`(191))
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `cie1_terms` WRITE;
 /*!40000 ALTER TABLE `cie1_terms` DISABLE KEYS */;
-INSERT INTO `cie1_terms` VALUES (1,'Uncategorized','uncategorized',0),(2,'Header Menu','header-menu',0),(3,'Recipes','recipes',0),(4,'Sides','sides',0),(5,'Wellness','wellness',0),(6,'Appetizers','appetizers',0),(7,'Breakfast','breakfast',0),(8,'Desserts','desserts',0),(9,'Entrees','entrees',0),(10,'Lunch','lunch',0),(11,'Footer','footer',0),(12,'Header Right','header-right',0);
+INSERT INTO `cie1_terms` VALUES (1,'Uncategorized','uncategorized',0),(2,'Header Menu','header-menu',0),(3,'Recipes','recipes',0),(4,'Sides','sides',0),(5,'Wellness','wellness',0),(6,'Appetizers','appetizers',0),(7,'Breakfast','breakfast',0),(8,'Desserts','desserts',0),(9,'Entrees','entrees',0),(10,'Lunch','lunch',0),(11,'Footer','footer',0),(12,'Header Right','header-right',0),(13,'Header Menu 2','header-menu-2',0);
 /*!40000 ALTER TABLE `cie1_terms` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
