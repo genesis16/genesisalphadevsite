@@ -2,12 +2,8 @@
 
 https://cobaltapps.com/downloads/themer-pro-plugin/
 
-## [1.4.1] - 2020-07-09
-### Changed
-- Updated the Cobalt Apps Admin Bar Menu to include Extender Pro Extender Blocks page and remove redundant Instant IDE page.
-- Updated the Easy Digital Downloads Plugin updater script to the latest version.
-
 ## [1.4.0] - 2020-06-24
+
 ### Changed
 - Updated the file editor file tree icons to the ones used by Instant IDE, for a cleaner, more updated look.
 - Refined admin styles.

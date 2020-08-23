@@ -93,10 +93,6 @@
 					<p>
 						<?php _e( 'Cobalt Apps Docs:', 'themer-pro' ); ?> <a href="https://docs.cobaltapps.com/" target="_blank">https://docs.cobaltapps.com/</a>
 					</p>
-
-					<p>
-						<?php _e( 'Cobalt Apps YouTube Channel:', 'themer-pro' ); ?> <a href="https://cobaltapps.com/youtube/" target="_blank">https://cobaltapps.com/youtube/</a>
-					</p>
 					
 					<p>
 						<?php _e( 'Cobalt Apps Affiliates:', 'themer-pro' ); ?> <a href="https://cobaltapps.com/affiliates/" target="_blank">https://cobaltapps.com/affiliates/</a>

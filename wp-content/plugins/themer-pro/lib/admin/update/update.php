@@ -119,10 +119,6 @@ function themer_pro_update() {
 	// Update to Themer Pro 1.4.0
 	if ( version_compare( get_option( 'themer_pro_version_number' ), '1.4.0', '<' ) )
 		update_option( 'themer_pro_version_number', '1.4.0' );
-
-	// Update to Themer Pro 1.4.1
-	if ( version_compare( get_option( 'themer_pro_version_number' ), '1.4.1', '<' ) )
-		update_option( 'themer_pro_version_number', '1.4.1' );
 	
 	// Finalize the update sequence.
 	themer_pro_activate_post();
