@@ -39,7 +39,6 @@ CREATE TABLE `cie1_comments` (
 
 LOCK TABLES `cie1_comments` WRITE;
 /*!40000 ALTER TABLE `cie1_comments` DISABLE KEYS */;
-INSERT INTO `cie1_comments` VALUES (1,1,'A WordPress Commenter','wapuu@wordpress.example','https://wordpress.org/','','2020-07-12 23:54:19','2020-07-12 23:54:19','Hi, this is a comment.\nTo get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.\nCommenter avatars come from <a href=\"https://gravatar.com\">Gravatar</a>.',0,'post-trashed','','comment',0,0),(2,1929,'David Schmeltzle','david@bizbudding.com','','75.99.169.62','2017-05-23 20:18:39','2017-05-23 20:18:39','Trail running is my way of recharging.',0,'post-trashed','','comment',0,0),(3,1929,'Mike Hemberger','mike@bizbudding.com','','73.160.118.92','2017-05-23 20:21:07','2017-05-23 20:21:07','I prefer mountain biking, but as long as you\\\'re outside it\\\'s all good!',0,'post-trashed','','comment',2,0),(4,1929,'Brandi Capozzi','brandi@bizbudding.com','','68.110.195.241','2017-07-27 13:21:19','2017-07-27 13:21:19','Agreed! Being outdoors centers me and keeps me working toward my goals.',0,'post-trashed','','comment',3,0);
 /*!40000 ALTER TABLE `cie1_comments` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

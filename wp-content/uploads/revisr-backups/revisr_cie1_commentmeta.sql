@@ -25,7 +25,6 @@ CREATE TABLE `cie1_commentmeta` (
 
 LOCK TABLES `cie1_commentmeta` WRITE;
 /*!40000 ALTER TABLE `cie1_commentmeta` DISABLE KEYS */;
-INSERT INTO `cie1_commentmeta` VALUES (1,2,'cookbook_comment_rating','0'),(2,2,'_wxr_import_user','2'),(3,3,'cookbook_comment_rating','0'),(4,3,'_wxr_import_user','3'),(5,4,'cookbook_comment_rating','0'),(6,4,'_wxr_import_user','6');
 /*!40000 ALTER TABLE `cie1_commentmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
