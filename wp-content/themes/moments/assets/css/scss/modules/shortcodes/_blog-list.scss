@@ -1,0 +1,160 @@
+/* #Latest posts
+   ========================================================================== */
+.qodef-blog-list-holder{
+	display: inline-block;
+	width: 100%;
+    
+    &>ul{
+        list-style: none;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0;
+        padding:0;	
+        vertical-align: top;
+        
+        &>li{
+            display: block;
+            position: relative; 
+        }
+    }
+    .qodef-item-text-holder {
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 28px 0;
+    }
+    .qodef-excerpt{
+        margin: 13px 0 0 0;
+    }
+    .qodef-item-info-section {
+        font-size: 12px;
+        margin: 10px 0 0;
+        color: $first-main-color;
+    }
+    .qodef-item-info-section > div {
+        display:inline;
+        padding: 0 5px;
+        
+        &:first-child{
+            padding: 0 5px 0 0;
+        }
+    }
+    .qodef-item-info-section > div a,
+    .qodef-item-info-section >div:before,
+    .qodef-item-info-section span{
+        color: $first-main-color;
+    }
+    .qodef-item-info-section > div:not(:first-child):before{
+        content: '|';
+        left: -5px;
+        position: relative;
+    }
+    .qodef-item-info-section .qodef-blog-like a i{
+        margin: 0 5px 0 0;
+    }
+    .qodef-item-image img{
+        width:100%;
+        float: left;
+    }
+}
+.qodef-blog-list-holder.qodef-boxes{
+	> ul{
+        clear: both;
+        
+        >li{
+            padding: 0;
+            float: left;
+            border: 0;
+            box-sizing: border-box;
+            margin: 0 2% 2% 0;
+        }
+    }
+    .qodef-btn.qodef-blog-list-button {
+        margin-top: 15px;
+    }
+}    
+.qodef-blog-list-holder.qodef-boxes.qodef-one-column > ul > li{
+    float: none;
+    margin: 0; 
+}
+.qodef-blog-list-holder.qodef-boxes.qodef-two-columns > ul > li{
+    width: 49%;
+}
+.qodef-blog-list-holder.qodef-boxes.qodef-three-columns > ul > li{
+    width: 32%;
+}
+.qodef-blog-list-holder.qodef-boxes.qodef-four-columns > ul > li{
+    width: 23.5%;
+}
+.qodef-blog-list-holder.qodef-boxes.qodef-two-columns ul.qodef-blog-list li:nth-child(2n),
+.qodef-blog-list-holder.qodef-boxes.qodef-three-columns ul.qodef-blog-list li:nth-child(3n),
+.qodef-blog-list-holder.qodef-boxes.qodef-four-columns ul.qodef-blog-list li:nth-child(4n){
+    margin: 0;
+}
+
+.qodef-blog-list-holder.qodef-boxes.qodef-two-columns ul.qodef-blog-list li:nth-child(2n+1),
+.qodef-blog-list-holder.qodef-boxes.qodef-three-columns ul.qodef-blog-list li:nth-child(3n+1),
+.qodef-blog-list-holder.qodef-boxes.qodef-four-columns ul.qodef-blog-list li:nth-child(4n+1){
+    clear: both;
+}
+/*------------------Masonry shortcode -----------------------------*/
+.qodef-blog-list-holder.qodef-masonry{
+    .qodef-blog-list{
+        opacity: 0;
+        @include qodefTransition(opacity 0.15s ease-out);
+
+        &.qodef-appeared{
+            opacity: 1;
+        }
+
+    }
+    .qodef-btn.qodef-blog-list-button {
+        margin-top: 20px;
+    }
+    
+    .qodef-blog-list-masonry-grid-sizer {
+        width: 32%;
+    }
+
+    .qodef-blog-list-masonry-grid-gutter {
+        width: 2%;
+    }
+
+    .qodef-blog-list-masonry-item {
+        width: 32%;
+    }
+}
+
+/*------------------image in left box -----------------------------*/
+.qodef-blog-list-holder.qodef-image-in-box{
+    ul > li:not(:first-child){
+        padding: 15px 0 0 0;
+    }
+    .qodef-blog-list-item-inner{
+        @include qodefTableLayout;
+    }
+    .qodef-item-image{
+        @include qodefTableCellLayout;
+        width: 150px;
+    }
+    .qodef-item-text-holder{
+        @include qodefTableCellLayout;
+        padding: 0 0 0 20px;
+        text-align: left;
+    }
+}
+/*------------------Minimal type styles -----------------------------*/
+.qodef-blog-list-holder.qodef-minimal{
+    &> ul > li:not(:first-child){
+        padding: 15px 0 0 0;
+    }
+    .qodef-item-text-holder{
+        padding: 0;
+    }
+    .qodef-excerpt{
+        margin: 0;
+    }
+}
+

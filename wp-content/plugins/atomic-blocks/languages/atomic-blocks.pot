@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Atomic Blocks - Gutenberg Blocks Collection plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Atomic Blocks - Gutenberg Blocks Collection 2.8.5\n"
+"Project-Id-Version: Atomic Blocks - Gutenberg Blocks Collection 2.8.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/atomic-blocks\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-07-15T19:06:51+00:00\n"
+"POT-Creation-Date: 2020-09-17T18:07:15+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: atomic-blocks\n"
@@ -47,11 +47,12 @@ msgid "Atomic Blocks"
 msgstr ""
 
 #: dist/getting-started/getting-started.php:50
-msgid "Genesis Page Builder Settings"
+msgid "Genesis Blocks Pro Settings"
 msgstr ""
 
 #: dist/getting-started/getting-started.php:51
-msgid "Page Builder"
+#: dist/init.php:131
+msgid "Genesis Blocks"
 msgstr ""
 
 #: dist/getting-started/getting-started.php:66
@@ -456,10 +457,6 @@ msgstr ""
 
 #: dist/getting-started/pages/settings-main.php:97
 msgid "View Documentation"
-msgstr ""
-
-#: dist/init.php:131
-msgid "Genesis Page Builder"
 msgstr ""
 
 #. translators: %s This PHP class name. Will print AtomicBlocks\Newsletter\Mailchimp
@@ -1227,7 +1224,7 @@ msgid "Background Image"
 msgstr ""
 
 #: src/blocks/block-column/components/column-layouts.js:13
-#: src/blocks/block-column/components/edit.js:65
+#: src/blocks/block-column/components/edit.js:72
 msgid "1 Column"
 msgstr ""
 
@@ -1272,55 +1269,55 @@ msgid "4 Columns - 20/20/20/40"
 msgstr ""
 
 #: src/blocks/block-column/components/column-layouts.js:95
-#: src/blocks/block-column/components/edit.js:89
+#: src/blocks/block-column/components/edit.js:96
 msgid "5 Columns"
 msgstr ""
 
 #: src/blocks/block-column/components/column-layouts.js:105
-#: src/blocks/block-column/components/edit.js:95
+#: src/blocks/block-column/components/edit.js:102
 msgid "6 Columns"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:71
+#: src/blocks/block-column/components/edit.js:78
 msgid "2 Columns"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:77
+#: src/blocks/block-column/components/edit.js:84
 msgid "3 Columns"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:83
+#: src/blocks/block-column/components/edit.js:90
 msgid "4 Columns"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:108
+#: src/blocks/block-column/components/edit.js:115
 #: src/blocks/block-column/components/inspector.js:105
 #: src/blocks/block-column/components/inspector.js:111
 #: src/blocks/block-column/index.js:124
 msgid "Column Layout"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:108
+#: src/blocks/block-column/components/edit.js:115
 msgid "Column Number"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:109
+#: src/blocks/block-column/components/edit.js:116
 msgid "Select a layout for this column."
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:109
+#: src/blocks/block-column/components/edit.js:116
 msgid "Select the number of columns for this layout."
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:114
+#: src/blocks/block-column/components/edit.js:121
 msgid "Select Row Columns"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:142
+#: src/blocks/block-column/components/edit.js:149
 msgid "Select Column Layout"
 msgstr ""
 
-#: src/blocks/block-column/components/edit.js:174
+#: src/blocks/block-column/components/edit.js:181
 msgid "Return to Column Selection"
 msgstr ""
 
@@ -1593,7 +1590,7 @@ msgid "Drop Cap Style"
 msgstr ""
 
 #: src/blocks/block-layout/components/edit.js:39
-#: src/blocks/block-layout/components/layout/layout-modal.js:76
+#: src/blocks/block-layout/components/layout/layout-modal.js:75
 msgid "Layout Selector"
 msgstr ""
 
@@ -1628,23 +1625,23 @@ msgid "Favorites"
 msgstr ""
 
 #: src/blocks/block-layout/components/layout/layout-modal.js:48
-#: src/blocks/block-layout/components/layout/layout-modal.js:107
+#: src/blocks/block-layout/components/layout/layout-modal.js:106
 msgid "Reusable Blocks"
 msgstr ""
 
-#: src/blocks/block-layout/components/layout/layout-modal.js:67
+#: src/blocks/block-layout/components/layout/layout-modal.js:66
 msgid "Layout Library"
 msgstr ""
 
-#: src/blocks/block-layout/components/layout/layout-modal.js:94
+#: src/blocks/block-layout/components/layout/layout-modal.js:93
 msgid "Add Custom Layouts"
 msgstr ""
 
-#: src/blocks/block-layout/components/layout/layout-modal.js:118
+#: src/blocks/block-layout/components/layout/layout-modal.js:117
 msgid "Send Feedback"
 msgstr ""
 
-#: src/blocks/block-layout/components/layout/layout-modal.js:136
+#: src/blocks/block-layout/components/layout/layout-modal.js:135
 msgid "Default tab content"
 msgstr ""
 
@@ -2049,7 +2046,7 @@ msgstr ""
 #: src/blocks/block-pricing-table-inner/components/price/index.js:34
 #: src/blocks/block-pricing-table-inner/components/subtitle/index.js:32
 #: src/blocks/block-pricing-table-inner/components/title/index.js:32
-#: src/blocks/block-pricing-table/index.js:79
+#: src/blocks/block-pricing-table/index.js:88
 msgid "pricing table"
 msgstr ""
 
@@ -2064,7 +2061,7 @@ msgstr ""
 #: src/blocks/block-pricing-table-inner/components/subtitle/index.js:34
 #: src/blocks/block-pricing-table-inner/components/title/index.js:34
 #: src/blocks/block-pricing-table-inner/index.js:172
-#: src/blocks/block-pricing-table/index.js:80
+#: src/blocks/block-pricing-table/index.js:89
 msgid "shop"
 msgstr ""
 
@@ -2228,24 +2225,24 @@ msgid "buy"
 msgstr ""
 
 #: src/blocks/block-pricing-table/components/inspector.js:36
-#: src/blocks/block-pricing-table/index.js:99
+#: src/blocks/block-pricing-table/index.js:108
 msgid "Pricing Columns"
 msgstr ""
 
 #: src/blocks/block-pricing-table/components/inspector.js:47
-#: src/blocks/block-pricing-table/index.js:102
+#: src/blocks/block-pricing-table/index.js:111
 msgid "Pricing Columns Gap"
 msgstr ""
 
-#: src/blocks/block-pricing-table/index.js:74
+#: src/blocks/block-pricing-table/index.js:83
 msgid "Pricing"
 msgstr ""
 
-#: src/blocks/block-pricing-table/index.js:75
+#: src/blocks/block-pricing-table/index.js:84
 msgid "Add a pricing table."
 msgstr ""
 
-#: src/blocks/block-pricing-table/index.js:81
+#: src/blocks/block-pricing-table/index.js:90
 msgid "purchase"
 msgstr ""
 

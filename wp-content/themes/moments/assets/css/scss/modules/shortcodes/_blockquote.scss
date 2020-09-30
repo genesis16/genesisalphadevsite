@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Blockquote shortcode start styles
+   ========================================================================== */
+blockquote{
+	position: relative;
+	display: table;
+
+	.qodef-icon-quotations-holder {
+        font-size: 113px;
+        line-height: 1em;
+        font-weight: 400;
+        color: #f2f2f2;
+        position: absolute;
+        top: -48px;
+        left: -29px;
+	}
+
+	.qodef-blockquote-text {
+        display: block;
+        position: relative;
+        padding-left: 33px;
+        line-height: 32px;
+	}  
+    
+}
+
+/* ==========================================================================
+   Blockquote shortcode end styles
+   ========================================================================== */

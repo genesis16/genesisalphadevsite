@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Instagram start styles
+   ========================================================================== */
+.qodef-instagram-feed {
+    margin-left: -2px;
+    margin-right: -2px;
+    
+    li{
+        float: left;
+        padding: 0 2px;
+        margin-bottom: 2px;
+        box-sizing: border-box;
+        
+        img{
+            display: block;
+        }
+    }
+}
+
+.qodef-instagram-feed.qodef-col-9 li {
+    width: 11.11111111111111%;
+}
+
+.qodef-instagram-feed.qodef-col-6 li {
+    width: 16.66666666666667%;
+}
+
+.qodef-instagram-feed.qodef-col-4 li {
+    width: 25%;
+}
+
+.qodef-instagram-feed.qodef-col-3 li {
+    width: 33.33%;
+}
+
+.qodef-instagram-feed.qodef-col-2 li {
+    width: 50%;
+}
+/* ==========================================================================
+   Instagram end styles
+   ========================================================================== */

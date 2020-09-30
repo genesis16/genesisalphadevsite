@@ -1,0 +1,7 @@
+.qodef-testimonials {
+    @include ipad-portrait {
+        .owl-dots .owl-dot span {
+            margin: 8px 12px;
+        }
+    }
+}

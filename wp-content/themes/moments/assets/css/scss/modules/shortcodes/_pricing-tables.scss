@@ -1,0 +1,174 @@
+/* ==========================================================================
+# Pricing table style - begin
+========================================================================== */
+
+.qodef-pricing-tables {
+    &.qodef-two-columns .qodef-price-table {
+        width: 50%;
+    }
+    &.qodef-three-columns .qodef-price-table{
+        width: 33.3%;
+    }
+    &.qodef-four-columns .qodef-price-table{
+        width: 25%;
+    }
+
+    .qodef-price-table{
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        float: left;
+
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+}
+
+.qodef-price-table .qodef-price-table-inner{
+    position: relative;
+    background-color: transparent;
+    border: 1px solid #e8e8e8;
+
+
+    ul{
+        list-style: none outside none;
+        margin: 0;
+    }
+
+    ul li{
+        text-align: center;
+        margin: 0;
+        padding: 16px 20px;
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    ul li:last-child {
+        border-bottom: 0;
+    }
+
+    ul li.qodef-table-title{
+        padding: 17px 20px;
+        position: relative;
+        background-color: #f7f7f7;
+
+        .qodef-title-content {
+            display: block;
+            color: #393a3a;
+            font-size: 18px;
+            line-height: 32px;
+            font-family: Poppins, sans-serif;
+            font-weight: 600;
+        }
+    }
+
+    ul li.qodef-table-prices {
+        padding: 31px 5px;
+
+        .qodef-price-in-table {
+            text-align: center;
+        }
+        .qodef-value {
+            font-size: 24px;
+            line-height: 38px;
+            color: #393a3a;
+            vertical-align: bottom;
+            font-weight: 600;
+            display: inline-block;
+            font-family: Poppins, sans-serif;
+        }
+        .qodef-price {
+            font-size: 58px;
+            line-height: 58px;
+            padding: 0;
+            vertical-align: middle;
+            color: #393a3a;
+            font-weight: 600;
+            display: inline-block;
+            font-family: Poppins, sans-serif;
+        }
+        .qodef-mark {
+            font-size: 13px;
+            line-height: 22px;
+            color: #949494;
+            text-transform: lowercase;
+            display: block;
+        }
+    }
+
+    ul li.qodef-table-content {
+        padding:0;
+        ul {
+            padding: 0;
+            li:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+
+    ul li.qodef-price-button {
+        padding: 41px 20px;
+    }
+}
+
+.qodef-price-table.qodef-active{
+    @include qodefTransform(translateY(-18px));
+    .qodef-active-text{
+        text-align: center;
+        background-color: #393a3a;
+        color: #fff;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 600;
+        position: absolute;
+        top: -45px;
+        right: 9px;
+        z-index: 9;
+        display: table;
+        width: 71px;
+        height: 71px;
+        @include qodefBorderRadius(50%);
+        letter-spacing: 0.2px;
+        vertical-align: middle;
+        text-transform: lowercase;
+
+        .qodef-active-text-inner{
+            display: table-cell;
+            vertical-align: middle;
+            width: 100%;
+            height: 100%;
+            padding: 0 5px;
+        }
+    }
+
+    .qodef-price-table-inner {
+        ul li.qodef-price-button {
+            padding: 59px 20px;
+        }
+    }
+}
+
+.qodef-pricing-tables.light {
+    .qodef-price-table .qodef-price-table-inner{
+        ul li.qodef-table-prices{
+            background-color: #fff;
+        }
+        ul li.qodef-table-content {
+
+            ul {
+
+                li {
+                    background-color: #fff;
+                }
+            }
+        }
+        ul li.qodef-price-button {
+            background-color: #fff;
+        }
+    }
+}
+
+/* ==========================================================================
+# Pricing table style - end
+========================================================================== */

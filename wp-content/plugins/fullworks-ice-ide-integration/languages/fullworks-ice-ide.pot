@@ -1,0 +1,90 @@
+# Copyright (C) 2019 fullworks-ice-ide
+# This file is distributed under the same license as the fullworks-ice-ide package.
+msgid ""
+msgstr ""
+"Project-Id-Version: fullworks-ice-ide\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/fullworks-ice-ide.php:92
+msgid "Cannot execute as the plugin already exists, if you have another version installed deactivate that and try again"
+msgstr ""
+
+#: src/admin/class-admin-pages.php:95
+msgid "Are you sure want to do this?"
+msgstr ""
+
+#: src/admin/class-admin-pages.php:179
+msgid "Save Options"
+msgstr ""
+
+#: src/admin/class-admin-pages.php:204
+msgid "Save"
+msgstr ""
+
+#: src/admin/class-admin-pages.php:215
+msgid "Settings reset to defaults."
+msgstr ""
+
+#: src/admin/class-admin-settings.php:40
+msgid "ICEcoder Editor"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:69
+msgid "ICEcoder Code Editor"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:83
+msgid "Info"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:86
+msgid "ICEcoder is a browser based code editor, which provides a modern approach to building websites. By allowing you to code directly within the web browser, online or offline, it means you only need one program (your browser) to develop sites, plus can test on actual web servers. After development, you can also maintain the website easily, all of which make for speedy and smart development."
+msgstr ""
+
+#: src/admin/class-admin-settings.php:89
+msgid "ICEcode is a third party application, so for information and features please head over to <a href=\"https://icecoder.net\" target=\"_blank\">https://icecoder.net/</a>"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:94
+msgid "Security"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:97
+msgid "You will have to provide a strong password when you first use ICEcoder.  Regardless it is highly recommended that unless this is in a local or secure environment, that you Deactivate and Delete this plugin when not needed. If you want to secure ICEcoder you will find some ideas here <a href=\"https://fullworks.net/docs/icecoder/security\" target=\"_blank\">https://fullworks.net/docs/icecoder/security</a> "
+msgstr ""
+
+#: src/admin/class-admin-settings.php:102
+msgid "Run"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:106
+msgid "Launch ICEcoder"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:115
+msgid "If you want a  quick link - you need to set up a permalinks ( settings>permalinks )"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:117
+msgid "Access without logging in via this quick link: "
+msgstr ""
+
+#: src/admin/class-admin-settings.php:127
+msgid "Did this plugin get you out of an issue? Did it save you time? Would you love to find this plugin still works and available next time you need it?  It will only be here if you donate, so donate the price of a cup of coffee and cake right now!"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:131
+msgid "Donate just $4.99 now!"
+msgstr ""
+
+#: src/includes/autoloader.php:54
+msgid "The system file attempting to be loaded at %1$s does not exist."
+msgstr ""

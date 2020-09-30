@@ -1,0 +1,32 @@
+/* ==========================================================================
+   #Twitter feed
+   ========================================================================== */
+.qodef-twitter-widget li {
+    position: relative;
+    box-sizing: border-box;
+
+    .qodef-social-twitter {
+        font-size: 15px;
+        color: $first-main-color;
+        font-family: 'ElegantIcons', sans-serif;
+        padding-right: 5px;
+    }
+
+    .qodef-social-twitter:before {
+        content: "\e094";
+    }
+
+
+    .qodef-tweet-content-holder {
+
+        .qodef-tweet-text a,
+        .qodef-tweet-time a{
+            color: #949494;
+        }
+
+        .qodef-tweet-text a:hover,
+        .qodef-tweet-time a:hover {
+
+        }
+    }
+}

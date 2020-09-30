@@ -1,0 +1,92 @@
+1.10
+- Added Moments Dashboard
+- Added WooCommerce 3.8.1 compatibility
+- Updated Select Core to 1.3
+- Updated Select Twitter Feed to 1.0.2
+- Updated Select Instagram Feed to 1.0.2
+- Fixed hover box button
+- Fixed Twitter share
+- Fixed Select Testimonials autoplay option
+- Removed unused file instagram-redirect.php from Select Instagram Feed
+- Removed unused file twitter-redirect.php from Select Twitter Feed
+- Improved Import
+- Improved Welcome Page
+- Changed Select Options Position
+
+1.9.1
+- Improved sidebar functionality
+
+1.9
+- Added WooCommerce 3.7.0 compatibility
+- Updated WPBakery Page Builder to 6.0.5
+- Updated Revolution Slider to 6.1.0
+- Improved framework files
+
+1.8.2
+- Updated WPBakery Page Builder to 6.0.1
+- Fixed blog list load more
+
+1.8.1
+- Improved theme ajax functionality with nonce check
+
+1.8
+- Added WooCommerce 3.6.1 compatibility
+- Updated WPBakery Page Builder to 5.7
+- Updated Revolution Slider to 5.4.8.3
+- Updated Select Core to 1.2
+- Updated Select Twitter Feed to 1.0.1
+- Updated Select Instagram Feed to 1.0.1
+- Updated pot file
+- Improved framework files
+
+1.7
+- Added WooCommerce 3.4.5 compatibility
+- Added compatibility with Gutenberg plugin
+- Updated WPBakery Page Builder to 5.5.2
+- Updated Revolution Slider to 5.4.8
+
+1.6
+- Added compatibility with PHP 7.2 
+- Updated Visual Composer to 5.4.7
+- Updated Revolution Slider to 5.4.7.2
+- Updated Envato Market to 2.0.0
+
+1.5
+- Added WooCommerce 3.2.5 compatibility
+- Added Envato Market plugin as required
+- Added recommended plugins (WooCommerce and Contact Form 7)
+- Updated Visual Composer to 5.4.5
+- Updated Revolution slider to version 5.4.6.3.1
+- Updated Select Core plugin to version 1.1.1
+- Fixed potential security issue when saving theme options
+- Fixed header misalignment in Google Chrome
+- Fixed missing shipping fields placeholders
+- Improved import functionality
+
+1.4
+- Added WooCommerce 3+ compatibility
+- Updated Visual Composer to 5.1.1
+- Updated Revolution slider to version 5.4.3.1
+- Fixed https problem with links
+
+1.3
+- Added WooCommerce 2.6.9 compatibility
+- Updated Revolution slider to version 5.3.1.5
+
+1.2
+- Added WooCommerce 2.6.8 compatibility
+- Updated Font Awesome pack to version 4.7.0
+- Updated Visual Composer to 5.0.1
+- Updated Revolution slider to version 5.3.0.2
+- Updated Select Core plugin to version 1.1
+- Fixed conditional script for applying changes in Select Options
+
+1.1
+- Added Wordpress 4.6.1 compatibility
+- Added option for Google maps api key
+- Updated Visual Composer to 4.12.1
+- Updated Font Awesome icons to version 4.6.3
+
+1.0.1
+
+- Updated Woocommerce template files for 2.6.4 compatibility

@@ -1,0 +1,1 @@
+<div class="qodef-post-info-comments-holder"><a itemprop="url" class="qodef-post-info-comments" href="<?php comments_link(); ?>" target="_self"><?php comments_number('0 ' . esc_html__('Comments','moments'), '1 '.esc_html__('Comment','moments'), '% '.esc_html__('Comments','moments') ); ?></a></div>

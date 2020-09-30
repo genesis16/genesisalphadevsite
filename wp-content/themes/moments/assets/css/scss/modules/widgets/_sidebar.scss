@@ -1,0 +1,422 @@
+/* ==========================================================================
+   Sidebar widgets start styles
+   ========================================================================== */
+.qodef-sidebar .widget {
+    font-size:13px;
+    line-height:25px;
+    margin-bottom: 15px;
+    text-align: center;
+    border: 1px solid #e9e9e9;
+    padding: 31px 26px 38px;
+    @include qodefBoxSizing(border-box);
+
+    h4 {
+        font-size: 13px;
+        font-weight: 600;
+        color: #333333;
+        font-family: Poppins, sans-serif;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        margin: 0;
+        list-style: none;
+
+        li {
+            padding-bottom: 11px;
+            &:last-child {
+                padding-bottom: 0;
+            }
+            a {
+                color: #949494;
+                border-bottom: 1px solid transparent;
+                @include qodefTransition(color 0.15s ease-out, border-color 0.15s ease-out);
+                &:hover {
+                    color: #f3ddce;
+                    border-bottom-color: #f3ddce;
+                }
+            }
+        }
+    }
+
+    td {
+        a {
+            color: #949494;
+            &:hover {
+                color: #f3ddce;
+            }
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+
+    &.widget_archive,
+    &.widget_archive,
+    &.widget_categories,
+    &.widget_text {
+        select,
+        select option{
+            width: 100%;
+            overflow: hidden;
+            border: 1px solid #e9e9e9;
+            font-size: 12px;
+            background-color: transparent;
+            outline: 0;
+            color: #949494;
+            font-family: inherit;
+            padding: 9px 12px;
+            height: 38px;
+            margin-top: 11px;
+            @include qodefBoxSizing(border-box);
+        }
+    }
+
+    &.widget_tag_cloud,
+    &.widget_product_tag_cloud{
+        .tagcloud {
+            font-size: 0;
+            margin-top: 17px;
+        }
+        a {
+            display: inline-block;
+            margin: 0 2px 4px 0;
+            line-height: 23px;
+            color: #949494;
+            font-size: 13px !important;
+            &:hover{
+                color: #f3ddce;
+            }
+            &:after {
+                content: ',';
+            }
+        }
+    }
+
+    &.widget_calendar{
+        border: 0;
+        padding: 0;
+        h4 {
+            border: 1px solid #e9e9e9;
+            margin-bottom: 0;
+            border-bottom: 0;
+        }
+        caption {
+            border-left: 1px solid #e9e9e9;
+            border-right: 1px solid #e9e9e9;
+        }
+        tfoot {
+            border: 1px solid #e9e9e9;
+            border-top: 0;
+        }
+    }
+
+    &.widget_search,
+    &.widget_product_search{
+        border: 0;
+        padding: 0;
+        h4 {
+            border: 1px solid #e9e9e9;
+            border-bottom: 0;
+            margin-bottom: 0;
+        }
+        .woocommerce-product-search,
+        #searchform {
+
+            width: 100%;
+            @include qodefBoxSizing(border-box);
+            display: inline-block;
+            background-color: transparent;
+            vertical-align: middle;
+            position: relative;
+            overflow: visible;
+            @include qodefBorderRadius(2px);
+
+            label {
+                display: none;
+            }
+
+            input[type="search"],
+            input[type="text"] {
+                display: inline-block;
+                text-decoration: none;
+                outline: 0;
+                color: #949494;
+                background-color: transparent;
+                font-family: inherit;
+                margin: 0;
+                padding: 0 55px 0 22px;
+                width: 100%;
+                height: 43px;
+                float: left;
+                font-size: 13px;
+                font-weight:400;
+                border: 1px solid #e9e9e9;
+                @include qodefBoxSizing(border-box);
+                @include qodefBorderRadius(2px);
+
+                &::-webkit-input-placeholder {
+                    /* WebKit, Blink, Edge */
+                    color: #aeaeae;
+                }
+                &:-moz-placeholder {
+                    /* Mozilla Firefox 4 to 18 */
+                    color: #aeaeae;
+                    opacity: 1;
+                }
+                &::-moz-placeholder {
+                    /* Mozilla Firefox 19+ */
+                    color: #aeaeae;
+                    opacity: 1;
+                }
+                &:-ms-input-placeholder {
+                    /* Internet Explorer 10-11 */
+                    color: #aeaeae;
+                }
+            }
+
+            input[type="submit"] {
+                width: 43px;
+                height: 43px;
+                line-height: 43px;
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+                outline: 0;
+                border: 0;
+                box-sizing: initial;
+                text-decoration: none;
+                color: #fff;
+                font-family: 'ElegantIcons', sans-serif;
+                font-weight: normal;
+                cursor: pointer;
+                white-space: nowrap;
+                float: right;
+                @include qodefTransition(color 0.2s ease-out, background-color 0.2s ease-out);
+                font-size: 14px;
+                background-color: #333333;
+                text-align: center;
+                position: absolute;
+                top: 0;
+                right: 0;
+                @include qodefBorderRadius(0 2px 2px 0);
+                &:hover {
+                    background-color: $first-main-color;
+                }
+            }
+        }
+    }
+
+    &.widget_recent_entries {
+        .post-date {
+            display: block;
+            line-height: 27px;
+        }
+    }
+
+    &.widget_qodef_instagram_widget {
+        padding-bottom: 17px;
+        ul {
+            margin: 19px -2px 0 -2px;
+        }
+        li {
+            padding-bottom: 0;
+            line-height: 0;
+            a {
+                display: inline-block;
+                line-height: 0;
+                width: 100%;
+                position: relative;
+                &:after {
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    background-color: rgba(255,255,255,0.2);
+                    opacity: 0;
+                    @include qodefTransition(opacity 0.15s ease-out);
+                }
+                &:hover:after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    &.widget_qodef_twitter_widget {
+        margin-bottom: 28px;
+        ul {
+            margin-top: 17px;
+        }
+        li {
+            padding-bottom: 23px;
+        }
+    }
+
+    /* Woocommerce price filter - start */
+
+    &.widget_price_filter {
+
+        .price_slider {
+            background-color: #f0f0f0;
+            position: relative;
+            text-align: left;
+            margin: 20px 0 0;
+            height: 8px;
+            border: 0;
+            border-radius: 0;
+        }
+
+        .ui-slider-range {
+            background-color: #dddddd;
+            position: absolute;
+            z-index: 1;
+            font-size: .7em;
+            display: block;
+            border: 0;
+            top: 0;
+            height: 8px;
+        }
+
+        .ui-slider-handle {
+            background-color: $first-main-color;
+            position: absolute;
+            z-index: 2;
+            width: 11px;
+            height: 11px;
+            cursor: pointer;
+            outline: 0;
+            top: -2px;
+            border-radius: 11px;
+            margin-left: 0;
+            border: 0;
+        }
+
+        .ui-slider-handle:last-child {
+            margin-left: -0.6em;
+        }
+
+        .price_slider_amount {
+            margin-top: 20px;
+        }
+
+        .price_slider_amount .button {
+            border-radius:2px;
+            display: inline-block;
+            position: relative;
+            outline: none;
+            font-weight: 500;
+            padding: 0px 32px;
+            font-size: 12px;
+            line-height: 39px;
+            text-transform:uppercase;
+            font-family: 'Poppins', sans-serif;
+            letter-spacing:0.5px;
+            background-color: #333333;
+            border: 2px solid #333333;
+            color: #fff;
+
+            @include qodefTransition(
+                    color 0.15s ease-out,
+                    background-color 0.15s ease-out,
+                    border-color 0.15s ease-out
+            );
+            font-weight: 500;
+            cursor: pointer;
+            &:hover {
+                border-color: $first-main-color;
+                background-color: $first-main-color;
+                color: #fff;
+            }
+        }
+
+        .price_label {
+            line-height: 43px;
+            font-size: 13px;
+            color: #949494;
+        }
+    }
+
+    /* Woocommerce price filter - end */
+
+    /* Woocommerce recently viewed products - start*/
+
+    &.widget_recently_viewed_products,
+    &.widget_products,
+    &.widget_top_rated_products{
+
+        .product_list_widget {
+            margin-top: 16px;
+            li {
+                display: table;
+                table-layout: fixed;
+                width: 100%;
+            }
+        }
+
+        .qodef-product-list-widget-image-wrapper {
+            display: table-cell;
+            width: 27%;
+            line-height: 0;
+            vertical-align: top;
+            height: 100%;
+
+            a {
+                display: inline-block;
+                width: 100%;
+            }
+        }
+
+        .qodef-product-list-widget-info-wrapper {
+            display: table-cell;
+            height: 100%;
+            vertical-align: middle;
+            padding-left: 16px;
+            text-align:left;
+
+            .qodef-product-title{
+                font-family: 'Poppins', sans-serif;
+                color: #333333;
+                font-size: 13px;
+                line-height: 1.4em;
+                font-weight: 500;
+                display:inline-block;
+            }
+
+            a {
+                margin-bottom: 8px;
+
+                &:hover{
+                    border:none;
+                }
+            }
+
+            .qodef-product-list-widget-price-wrapper {
+                line-height: 18px;
+            }
+
+            .amount,
+            del,
+            ins {
+                font-size: 13px;
+                color: #acacac;
+                font-weight: 500;;
+            }
+            ins {
+                text-decoration: none;
+            }
+        }
+    }
+
+    /* Woocommerce recently viewed products - end*/
+}
+
+/* ==========================================================================
+   Sidebar widgets end styles
+   ========================================================================== */

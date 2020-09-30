@@ -1,0 +1,37 @@
+@media only screen and (min-width: $ipad-landscape) and (max-width: $laptop-landscape){
+    .qodef-vertical-menu-area .qodef-service-tables.qodef-four-columns .qodef-service-table{
+		width: 48.75%;
+		margin-bottom: 45px;
+	}
+
+	.qodef-vertical-menu-area .qodef-service-tables.qodef-four-columns .qodef-service-table:nth-child(2n+1){
+		margin-left: 0;
+		clear: both;
+	}
+}
+
+@media only screen and (max-width: $ipad-landscape){
+    .qodef-service-tables.qodef-four-columns .qodef-service-table {
+        width: 48.5%;
+        margin-bottom: 45px;
+    }
+
+    .qodef-service-tables.qodef-four-columns .qodef-service-table:nth-child(2n+1) {
+        margin-left: 0;
+        clear: both;
+    }
+}
+@media only screen and (min-width: $phone-landscape) and (max-width: $ipad-portrait){
+    .qodef-service-tables.qodef-three-columns .qodef-service-table{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 45px;
+    }
+}
+@media only screen and (max-width: $phone-landscape){
+    .qodef-service-tables .qodef-service-table {
+        width: 100% !important;
+        margin-left: 0;
+        margin-bottom: 45px;
+    }
+}

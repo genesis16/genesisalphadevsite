@@ -1,0 +1,8 @@
+@import 'variables';
+@import 'mixins';
+
+//import basic style and custom style for each list and single
+
+@import 'modules/blog/blog-basic';
+@import 'modules/blog/blog-standard-list';
+@import 'modules/blog/blog-single';

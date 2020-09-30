@@ -1,0 +1,115 @@
+.qodef-btn {
+    display: inline-block;
+    position: relative;
+    outline: none;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0px 32px;
+    font-size: 12px;
+    line-height: 39px;
+    text-transform:uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing:0.5px;
+
+    @include qodefTransition(color 0.15s ease-out, background-color 0.15s ease-out, border-color 0.15s ease-out);
+    @include qodefBoxSizing(border-box);
+
+    &.qodef-btn-solid {
+        background-color: $first-main-color;
+        border: 2px solid $first-main-color;
+        color: #fff;
+        border-radius:2px;
+
+        &:not(.qodef-btn-custom-hover-color):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            color: #333333 !important;
+        }
+
+        &:not(.qodef-btn-custom-hover-bg):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            background-color: transparent !important;
+        }
+
+        &:not(.qodef-btn-custom-border-hover):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            border-color: #eaeaea !important;
+        }
+    }
+
+    &.qodef-btn-outline {
+        border: 2px solid  #eaeaea;
+        color: #333333;
+        background-color: transparent;
+        border-radius:2px;
+
+        &:not(.qodef-btn-custom-hover-color):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            color: #fff !important;
+        }
+
+        &:not(.qodef-btn-custom-hover-bg):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            background-color: $first-main-color !important;
+        }
+
+        &:not(.qodef-btn-custom-border-hover):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            border-color: $first-main-color !important;
+        }
+    }
+
+    &.qodef-btn-transparent{
+        border: none !important;
+        padding:0px !important;
+        color: #333333;
+        background-color: transparent !important;
+        border: none !important;
+
+
+        &:not(.qodef-btn-custom-hover-color):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            color: #c9c9c9 !important;
+        }
+
+        &:hover{
+            text-decoration:underline;
+        }
+    }
+
+    &.qodef-btn-small {
+        font-size: 11px;
+        line-height:36px;
+        padding: 0 30px;
+    }
+
+    &.qodef-btn-medium {
+        //same as default
+    }
+
+    &.qodef-btn-large {
+        font-size: 14px;
+        padding: 0px 38px;
+        line-height:46px;
+    }
+
+    &.qodef-btn-huge,
+    &.qodef-btn-huge-full-width {
+        font-size: 15px;
+        padding: 0px 41px;
+        line-height:50px;
+    }
+
+    &.qodef-btn-huge-full-width {
+        display: block;
+        text-align: center;
+    }
+
+    &.qodef-btn-icon .qodef-btn-text {
+        margin-right: 10px;
+    }
+}
+
+input[type=submit].qodef-btn,
+button.qodef-btn {
+    cursor: pointer;
+}

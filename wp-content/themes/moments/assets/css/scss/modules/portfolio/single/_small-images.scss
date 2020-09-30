@@ -1,0 +1,33 @@
+/* ==========================================================================
+# Portfolio Single Small Images - begin
+========================================================================== */
+
+.small-images {
+    .qodef-portfolio-media .qodef-portfolio-single-media {
+        margin-bottom: 20px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .qodef-follow-portfolio-info {
+        position: relative;
+
+        //@include qodefTransition(margin-top 0.2s ease);
+    }
+
+    .qodef-portfolio-content{
+        margin: 20px 0 30px 0;
+    }
+
+    @include ipad-portrait {
+        .qodef-portfolio-media {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+/* ==========================================================================
+# Portfolio Single Small Images - end
+========================================================================== */

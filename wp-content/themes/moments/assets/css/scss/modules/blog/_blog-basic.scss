@@ -1,0 +1,150 @@
+.qodef-blog-holder{
+	article {
+		padding-bottom: 25px;
+		margin-bottom: 40px;
+        border-bottom: 1px solid #e9e9e9;
+
+		.qodef-post-image {
+            margin-bottom: 31px;
+            img {
+                vertical-align: middle;
+            }
+		}
+
+        .qodef-post-info{
+            margin-bottom: 5px;
+            font-family: Poppins, sans-serif;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #949494;
+            letter-spacing: 1px;
+            font-weight:500;
+
+            > div {
+                display: inline-block;
+                position: relative;
+                padding-right: 15px;
+            }
+
+            > div:after {
+                content: "/";
+                position: absolute;
+                right: 5px;
+                top: 0;
+
+            }
+
+            > div:last-child:after {
+                content: "";
+            }
+
+            a {
+                color: $first-main-color;
+            }
+        }
+
+        .qodef-post-title {
+            margin-bottom: 12px;
+        }
+
+        &.sticky {
+            .qodef-post-title a {
+                color: $first-main-color;
+            }
+        }
+
+        .qodef-post-excerpt{
+			margin: 0 0 27px;
+		}
+
+        .qodef-post-list-content {
+            margin: 0 0 27px;
+        }
+
+        .qodef-post-info-bottom {
+            display: table;
+            width: 100%;
+            height: 100%;
+
+            .qodef-post-read-more-button {
+                display: table-cell;
+                vertical-align: middle;
+                height: 100%;
+
+                .qodef-btn {
+
+                }
+            }
+
+            .qodef-blog-share {
+                display: table-cell;
+                vertical-align: middle;
+                width: 150px;
+                height: 100%;
+                text-align: right;
+            }
+        }
+
+        &.format-audio {
+            .qodef-post-image {
+                margin-bottom: 0;
+            }
+            .qodef-blog-audio-holder {
+                margin-bottom: 31px;
+            }
+        }
+
+		&.format-quote,
+		&.format-link{
+			.qodef-post-text{
+                padding: 29px 37px 59px;
+                border: 1px solid #e9e9e9;
+			}
+		}
+
+		&.format-quote {
+            .qodef-quote-author {
+                color: #b2b2b2;
+            }
+		}
+
+      .qodef-single-links-pages {
+        margin: 20px 0;
+
+        .qodef-single-links-pages-inner {
+          > a,
+          > span {
+            display: inline-block;
+            height: 20px;
+            margin-left:5px;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: right;
+            color: #333;
+
+            &:hover{
+              color: #c9c9c9;
+            }
+          }
+        }
+      }
+	}
+
+}
+
+.qodef-filter-blog-holder{
+
+	text-align: center;
+	margin-bottom: 30px;
+
+	li {
+		display:inline-block;
+		padding: 0 8px;
+		cursor: pointer;
+		font-size: 15px;
+
+		&.qodef-active{
+			color: $first-main-color;
+		}
+	}
+}

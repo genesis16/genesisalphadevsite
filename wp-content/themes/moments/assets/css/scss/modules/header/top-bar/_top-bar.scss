@@ -1,0 +1,67 @@
+$top-bar-height: 40px;
+
+.qodef-top-bar {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+	position: relative;
+    font-weight: 400;
+    height: $top-bar-height;
+	z-index: 111;
+	
+
+    .qodef-grid {
+        height: 100%;
+
+        .qodef-vertical-align-containers {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    .qodef-logo-wrapper a {
+        max-height: $top-bar-height;
+    }
+
+    .qodef-position-center {
+
+        p {
+            font-size: 13px;
+            color: #c99e66;
+        }
+    }
+
+}
+
+.qodef-light-header .qodef-top-bar {
+	color: $header-light-color !important; //Beacause of inline color styles
+
+	.widget {
+		color: $header-light-color !important; //Beacause of inline color styles
+
+		p,
+		a,
+		span,
+		i,
+		.widgettitle {
+			color: $header-light-color !important; //Beacause of inline color styles
+		}
+
+	}
+}
+
+.qodef-dark-header .qodef-top-bar {
+	color: $header-dark-color !important; //Beacause of inline color styles
+
+	.widget {
+		color: $header-dark-color !important; //Beacause of inline color styles
+
+		p,
+		a,
+		span,
+		i,
+		.widgettitle {
+			color: $header-dark-color !important; //Beacause of inline color styles
+		}
+
+	}
+}

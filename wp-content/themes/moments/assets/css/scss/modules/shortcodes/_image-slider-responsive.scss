@@ -1,0 +1,88 @@
+@include phone-landscape {
+    .qodef-image-slider {
+        .qodef-image-slider-inner {
+            height: auto !important;
+        }
+        ul {
+            height: auto !important;
+            width: 100% !important;
+        }
+        li {
+            float: none;
+            .qodef-image-slider-holder {
+                height: auto !important;
+                width: 100% !important;
+            }
+            &.-before,
+            &.-after {
+                display: none;
+            }
+        }
+        img {
+            height: auto;
+            width: 100%;
+        }
+        .controls {
+            display: none;
+        }
+
+        &.qodef-highlight-active {
+            ul li {
+                .qodef-image-slider-holder:after {
+                    background-color: rgba(0, 0, 0, 0);
+                }
+            }
+        }
+
+        .owl-carousel .owl-item img {
+            display: inline-block;
+            width: auto;
+        }
+
+        .owl-nav {
+
+            .owl-prev {
+                position: absolute;
+                top: 50%;
+                @include qodefTransform(translateY(-50%));
+                left: 0;
+            }
+
+            .owl-next {
+                position: absolute;
+                top: 50%;
+                @include qodefTransform(translateY(-50%));
+                right: 0;
+            }
+
+            .qodef-prev-icon,
+            .qodef-next-icon {
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+                color: #2c2c2c;
+                background-color: #ffffff;
+                text-align: center;
+                font-size: 20px;
+                @include qodefTransition(background-color 0.15s ease-out);
+
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.5);
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: $ipad-portrait) and (max-width: $ipad-landscape) {
+    .qodef-carousel-holder {
+        .qodef-carousel {
+            .owl-item {
+                padding: 0 10px;
+                box-sizing: border-box;
+            }
+        }
+    }
+}

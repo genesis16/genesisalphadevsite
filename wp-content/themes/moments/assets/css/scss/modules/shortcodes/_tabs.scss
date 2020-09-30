@@ -1,0 +1,178 @@
+/* ==========================================================================
+# Tabs style - begin
+========================================================================== */
+.qodef-tabs {
+    
+    .qodef-tabs-nav {                
+        display: block;
+        position: relative;
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        vertical-align: middle;
+        @include qodefBoxSizing(border-box);
+
+        li {
+            margin: 0;
+
+            a {
+                position: relative;
+                display: block;
+                padding: 12px 36px;
+                color: #c3c3c3;
+                font-family: Poppins, sans-serif;
+                font-size: 12px;
+                line-height: 23px;
+                font-weight: 500;
+                text-align: center;
+                @include qodefBoxSizing(border-box);
+                @include qodefTransition(color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out);
+
+                i,
+                span {
+                    @include qodefTransition(initial);
+                }
+
+                .qodef-icon-frame {
+                    display: inline-block;
+                    min-width: 20px;
+                    line-height: 1;
+                    vertical-align: middle;
+                }
+
+                .qodef-tab-text-after-icon {
+                    @include qodefTransition(initial);
+                    vertical-align: middle;
+                }
+            }
+
+            &.ui-state-active a,
+            &.ui-state-hover a {
+                color: #393a3a;
+            }
+        }
+    }
+
+    .qodef-tab-container {     
+        position: relative;
+        @include qodefBoxSizing(border-box);
+    }
+}
+
+/* Icon tabs styles
+   ========================================================================== */
+.qodef-tabs.qodef-horizontal-tab.qodef-tab-with-icon ul li a {
+
+    .qodef-tab-text-after-icon {
+        padding: 0 4px 0 0;
+    }
+}
+
+.qodef-tabs.qodef-vertical-tab.qodef-tab-with-icon ul li a {
+
+    .qodef-tab-text-after-icon {
+        padding: 0 0 0 13px;
+    }
+}
+
+.qodef-tabs.qodef-tab-with-icon ul li:hover .qodef-icon-frame  {
+    @include qodefAnimation(qodef-appear .35s forwards ease);
+}
+
+@include keyframes(qodef-appear) {
+    0% {
+        opacity: 0;
+        @include qodefTransform(translateX(25px));
+    }
+    30% {
+        opacity: .1;
+        @include qodefTransform(translateX(15px));
+    }
+    100% {
+        opacity: 1;
+        @include qodefTransform(translateX(0px));
+    }
+}
+
+/* Horizontal tabs styles
+   ========================================================================== */
+.qodef-tabs.qodef-horizontal-tab {
+    
+    .qodef-tabs-nav {
+        li {
+            float: left;
+
+            a {
+                border: 1px solid #d6d6d6;
+                border-left: 0;
+            }
+
+            &:first-child {
+                a {
+                    border-left: 1px solid #d6d6d6;
+                }
+            }
+        }
+    }
+
+    .qodef-tab-container {
+        padding: 20px 0;
+    }
+}
+
+/* Vertical tabs styles
+   ========================================================================== */
+.qodef-tabs.qodef-vertical-tab {
+    
+    .qodef-tabs-nav {
+        float: left;
+        width: 30%;
+
+        li {
+            position: relative;
+            display: block;
+            width: 100%;
+
+            a {
+                border: 1px solid #d6d6d6;
+                border-top: 0;
+            }
+
+            &:first-child {
+                a {
+                    border-top: 1px solid #d6d6d6;
+                }
+            }
+
+            &.ui-state-active a {
+                border-right: 1px solid transparent;
+            }
+
+            &:last-child {
+                margin: 0;
+            }
+        }   
+    }
+
+    .qodef-tab-container {
+        float: left;
+        width: 70%;
+        padding: 0 30px;
+
+        .wpb_text_column :first-child,
+        .wpb_text_column p:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.qodef-tabs.qodef-vertical-tab.qodef-tab-only-icon {
+    
+    .qodef-tabs-nav li a {
+        text-align: center;
+    }
+}
+/* ==========================================================================
+# Tabs style - end
+========================================================================== */

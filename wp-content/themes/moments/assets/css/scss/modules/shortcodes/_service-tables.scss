@@ -1,0 +1,92 @@
+/* ==========================================================================
+# service table style - begin
+========================================================================== */
+
+.qodef-service-tables {
+    &.qodef-two-columns .qodef-service-table {
+        width: 48.5%;
+    }
+    &.qodef-three-columns .qodef-service-table{
+        width: 31.3%;
+    }
+    &.qodef-four-columns .qodef-service-table{
+        width: 22.75%;
+    }
+
+    .qodef-service-table{
+        position: relative;
+        width: 100%;
+        padding: 0;
+        float: left;
+        margin-left: 3%;
+
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+}
+
+.qodef-service-table .qodef-service-table-inner{
+    position: relative;
+    background-color: transparent;
+
+    ul{
+        list-style: none outside none;
+        margin: 0;
+    }
+
+    ul li{
+        text-align: center;
+        margin: 0;
+        padding: 14px 20px;
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    ul li:last-child {
+        border-bottom: 0;
+    }
+
+    ul li.qodef-table-title{
+        padding: 43px 20px;
+        position: relative;
+        background-color: $first-main-color;
+        border-bottom: 0;
+
+        .qodef-title-content {
+            display: block;
+            color: #fff;
+            font-size: 22px;
+            line-height: 32px;
+            font-weight: 600;
+            font-family: Poppins, sans-serif;
+        }
+    }
+
+    ul li.qodef-table-content {
+        padding:0;
+        border: 1px solid #e8e8e8;
+        border-top: 0;
+        ul {
+            padding: 0;
+            li:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+
+    ul li.qodef-service-button {
+        padding: 41px 20px;
+        border: 1px solid #e8e8e8;
+        border-top: 0;
+    }
+}
+
+.qodef-service-tables.light {
+    .qodef-service-table .qodef-service-table-inner{
+      background-color: #fff;
+    }
+}
+
+/* ==========================================================================
+# service table style - end
+========================================================================== */

@@ -1,0 +1,100 @@
+/* ==========================================================================
+# Team style - begin
+========================================================================== */
+
+
+.qodef-team {
+
+	.qodef-team-inner {
+		overflow:hidden;
+		width: 100%;
+	}
+
+	.qodef-team-image {
+		position:relative;
+		overflow: hidden;
+
+		img {
+            width: 100%;
+            vertical-align: middle;
+        }
+
+        &.qodef-team-grayscale {
+            img {
+                -webkit-filter: grayscale(100%);
+                -moz-filter: grayscale(100%);
+                -o-filter: grayscale(100%);
+                filter: grayscale(100%);
+                filter: url(img/desaturate.svg#grayscale);
+                -webkit-transition: all .6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                transition: all .6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            }
+		}
+
+		&:hover{
+            &.qodef-team-grayscale {
+                img {
+                    -webkit-filter: grayscale(0);
+                    -moz-filter: grayscale(0);
+                    -ms-filter: grayscale(0);
+                    -o-filter: grayscale(0);
+                    filter: grayscale(0);
+                    filter: none;
+                }
+            }
+		}
+	}
+
+	.qodef-team-info {
+		text-align:center;
+
+		.qodef-team-name {
+			margin: 27px 0 2px 0;
+		}
+
+        .q_team_position {
+            margin: 0;
+        }
+
+		.qodef-team-description{
+			margin-top:10px;
+			p{
+				margin:0;
+			}
+		}
+
+	}
+
+
+	.qodef-team-social {
+		.qodef-icon-shortcode{
+			margin: 13px 10px 0 0;
+
+			span,
+			i{
+				color:#333;
+				@include qodefTransition(color 0.3s ease, background-color 0.3s ease);
+				&:hover{
+					color: $first-main-color;
+				}
+			}
+		}
+		.qode_icon_ion_icon:before,
+		.qode_icon_linea_icon:before {
+			line-height: inherit;
+		}
+	}
+
+
+
+}
+
+.touch .qodef-team .qodef-team-social-holder {
+	cursor: pointer;
+}
+
+
+
+/* ==========================================================================
+# Team style - end
+========================================================================== */

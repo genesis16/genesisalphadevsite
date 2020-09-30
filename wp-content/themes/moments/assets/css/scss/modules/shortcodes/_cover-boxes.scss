@@ -1,0 +1,96 @@
+/* ==========================================================================
+   Cover Boxes shortcode start styles
+   ========================================================================== */
+
+.qodef-cover-boxes {
+    position: relative;
+    overflow: hidden;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        width: 149%;
+        position: relative;
+
+        li {
+            position: absolute;
+            left: 0;
+            width: 32.3%;
+            @include qodefTransition(all 0.4s ease 0s);
+            display: inline-block;
+            backface-visibility: hidden;
+            line-height: 0;
+
+            .qodef-box {
+                width: 100%;
+                display: inline-block;
+                line-height: 0;
+
+                .qodef-box-info-holder {
+                    display: inline-block;
+                    width: 48%;
+                    float: left;
+                }
+
+                .qodef-box-info-holder img {
+                    display: block;
+                    position: relative;
+                    max-width: 100%;
+                }
+
+                .qodef-box-content {
+                    display: inline-block;
+                    width: 52%;
+                    padding-left: 27px;
+                    vertical-align: top;
+                    line-height: 27px;
+                    @include qodefBoxSizing(border-box);
+                    float: left;
+                }
+
+                .qodef-cover-box-title {
+                    padding-bottom: 13px;
+                    margin-top: 6px;
+                }
+
+                .qodef-cover-box-text {
+                    margin: 0;
+                }
+
+                .qodef-btn {
+                    margin: 20px 0 0;
+                }
+            }
+
+            &:first-child:hover ~ li:nth-child(2),
+            &:first-child.act ~ li:nth-child(2) {
+                left: 34.5%;
+            }
+
+            &:first-child.act ~ li:nth-child(3),
+            &:first-child:hover ~ li:nth-child(3) {
+                left: 51.6%;
+            }
+
+            &:nth-child(2) {
+                left: 17.1%;
+            }
+
+            &:nth-child(2):hover {
+                left: 17.1%;
+            }
+
+            &.act:nth-child(3) {
+                left: 34.2%;
+            }
+
+            &:nth-child(3) {
+                left: 51.6%;
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+   Cover Boxes shortcode end styles
+   ========================================================================== */
