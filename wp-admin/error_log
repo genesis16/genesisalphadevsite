@@ -7,3 +7,12 @@
 [29-Sep-2020 23:16:34 UTC] PHP Warning:  sprintf(): Too few arguments in /home/theal029/alphadevsite.co/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
 [29-Sep-2020 23:16:34 UTC] PHP Warning:  sprintf(): Too few arguments in /home/theal029/alphadevsite.co/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
 [29-Sep-2020 23:16:49 UTC] PHP Warning:  sprintf(): Too few arguments in /home/theal029/alphadevsite.co/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[30-Sep-2020 04:15:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function QodeCore\PostTypes\Slider\Shortcodes\moments_qodef_loading_spinners() in /home/theal029/alphadevsite.co/wp-content/plugins/select-core/post-types/slider/shortcodes/slider.php:194
+Stack trace:
+#0 /home/theal029/alphadevsite.co/wp-includes/shortcodes.php(343): QodeCore\PostTypes\Slider\Shortcodes\Slider->render(Array, '', 'qodef_slider')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/theal029/alphadevsite.co/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(qodef_...', 'do_shortcode_ta...', '[qodef_slider s...')
+#3 /home/theal029/alphadevsite.co/wp-content/plugins/wordpress-seo/admin/ajax/class-shortcode-filter.php(35): do_shortcode('[qodef_slider s...')
+#4 /home/theal029/alphadevsite.co/wp-includes/class-wp-hook.php(287): WPSEO_Shortcode_Filter->do_filter('')
+#5 /home/theal029/alphadevsite.co/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 /home/theal029/alphadevsite.co/wp-includes/plugin.php(478): WP_Hook->do_action in /home/theal029/alphadevsite.co/wp-content/plugins/select-core/post-types/slider/shortcodes/slider.php on line 194
