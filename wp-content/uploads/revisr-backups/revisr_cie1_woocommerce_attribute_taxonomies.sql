@@ -9,24 +9,25 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-DROP TABLE IF EXISTS `cie1_commentmeta`;
+DROP TABLE IF EXISTS `cie1_woocommerce_attribute_taxonomies`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `cie1_commentmeta` (
-  `meta_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `comment_id` bigint(20) unsigned NOT NULL DEFAULT 0,
-  `meta_key` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `meta_value` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  PRIMARY KEY (`meta_id`),
-  KEY `comment_id` (`comment_id`),
-  KEY `meta_key` (`meta_key`(191))
-) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+CREATE TABLE `cie1_woocommerce_attribute_taxonomies` (
+  `attribute_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `attribute_name` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `attribute_label` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `attribute_type` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `attribute_orderby` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `attribute_public` int(1) NOT NULL DEFAULT 1,
+  PRIMARY KEY (`attribute_id`),
+  KEY `attribute_name` (`attribute_name`(20))
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
-LOCK TABLES `cie1_commentmeta` WRITE;
-/*!40000 ALTER TABLE `cie1_commentmeta` DISABLE KEYS */;
-INSERT INTO `cie1_commentmeta` VALUES (1,28,'rating','4'),(2,28,'verified','0'),(3,33,'rating','5'),(4,33,'verified','0'),(5,34,'rating','4'),(6,34,'verified','0'),(7,35,'rating','5'),(8,35,'verified','0'),(9,36,'rating','5'),(10,36,'verified','0'),(11,37,'rating','3'),(12,37,'verified','0'),(13,38,'rating','4'),(14,38,'verified','0');
-/*!40000 ALTER TABLE `cie1_commentmeta` ENABLE KEYS */;
+LOCK TABLES `cie1_woocommerce_attribute_taxonomies` WRITE;
+/*!40000 ALTER TABLE `cie1_woocommerce_attribute_taxonomies` DISABLE KEYS */;
+INSERT INTO `cie1_woocommerce_attribute_taxonomies` VALUES (1,'color','color','select','menu_order',0),(2,'size','size','select','menu_order',0);
+/*!40000 ALTER TABLE `cie1_woocommerce_attribute_taxonomies` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

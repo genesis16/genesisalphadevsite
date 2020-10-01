@@ -14,15 +14,15 @@ DROP TABLE IF EXISTS `cie1_actionscheduler_groups`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `cie1_actionscheduler_groups` (
   `group_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `slug` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `slug` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   PRIMARY KEY (`group_id`),
   KEY `slug` (`slug`(191))
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `cie1_actionscheduler_groups` WRITE;
 /*!40000 ALTER TABLE `cie1_actionscheduler_groups` DISABLE KEYS */;
-INSERT INTO `cie1_actionscheduler_groups` VALUES (1,'action-scheduler-migration'),(2,'wpforms');
+INSERT INTO `cie1_actionscheduler_groups` VALUES (1,'action-scheduler-migration'),(2,'woocommerce-db-updates');
 /*!40000 ALTER TABLE `cie1_actionscheduler_groups` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
